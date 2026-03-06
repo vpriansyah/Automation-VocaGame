@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Masuk</name>
+   <tag></tag>
+   <elementGuidId>c4acc5fb-ce8b-42db-87d3-d34cd2b572a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.md\:flex.justify-end .rounded-lg.border-primary.text-primary.font-bold</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Masuk' or . = 'Masuk')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' border-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a91753b1-64cd-4d4d-bc22-7e357d86fa04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center font-bold justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-primary bg-background text-primary hover:bg-accent h-9 rounded-lg px-3</value>
+      <webElementGuid>5f74b36b-58f9-413b-9090-d8f103a98a3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk</value>
+      <webElementGuid>5deaa3b2-e860-4889-904c-c43279fcca94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' border-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      <webElementGuid>627ce3f9-67fe-4e62-987a-4c7490f8fc75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-8620a288e01272b45acccefd2e3ac20c</value>
+      <webElementGuid>35a8fae4-27f6-4478-888e-6c929cdce539</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' border-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ')]</value>
+      <webElementGuid>fd3d4236-249a-4e58-b2d5-4fcff99a7f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Masuk' or . = 'Masuk')]</value>
+      <webElementGuid>6597bb3f-5532-469e-97cc-9b554b9dba97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indonesia'])[1]/preceding::button[1]</value>
+      <webElementGuid>83226c18-8df4-48d6-a864-61095c2c2505</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/preceding::button[3]</value>
+      <webElementGuid>513179ca-7036-4a60-a0b8-e49324b69bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
+      <webElementGuid>c31e93aa-d36c-4ac3-97b2-586ef7c394a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>dcd2e865-6d1d-4d8e-b32b-96361d60042d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

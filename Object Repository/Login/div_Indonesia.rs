@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Indonesia</name>
+   <tag></tag>
+   <elementGuidId>c0678122-e7a6-4ca9-a91f-990b6ead3a75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.md\:flex.justify-end</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4ef170ba-df31-4784-859d-794af3a6879c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative ml-4 hidden h-8 items-center justify-end space-x-4 md:flex</value>
+      <webElementGuid>1300fb0b-8754-4faf-bc07-e47ed9533bc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Indonesia</value>
+      <webElementGuid>bff36148-14c8-43af-92b6-ab6a06841176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-92e000ad0438c838e6b29a5c28d1cfca</value>
+      <webElementGuid>70725c9c-7954-46f1-83ad-8fbb01a93321</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]</value>
+      <webElementGuid>5c5d94df-fd55-4fc7-b32a-76262f5375dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' md:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-end ')]</value>
+      <webElementGuid>b0b65e22-2fb6-4ee4-b78c-54989122db8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Indonesia' or . = 'Indonesia')]</value>
+      <webElementGuid>a5996433-feca-4084-8b9e-881f67c54335</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>figure_Indonesia_flex items-center justify-center rounded-full bg-primary20 p-3</name>
+   <tag></tag>
+   <elementGuidId>a1b5a13f-dea3-4971-9ce0-8de07d9a9c62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='radix-:r5b:']/figure</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>figure</value>
+      <webElementGuid>bc42be6d-bb30-4ec1-9840-ce2bd235b700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center rounded-full bg-primary/20 p-3</value>
+      <webElementGuid>4ee16bb5-5ac5-49ab-a3be-d1ae2bec2f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r5b:&quot;)/figure[@class=&quot;flex items-center justify-center rounded-full bg-primary/20 p-3&quot;]</value>
+      <webElementGuid>dee2a936-f34e-4707-8547-c1caa7a969bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='radix-:r5b:']/figure</value>
+      <webElementGuid>8008decb-23a9-4c8b-86a1-967b55900702</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indonesia'])[1]/preceding::figure[1]</value>
+      <webElementGuid>9a6d69b6-2c46-42bb-9d91-a49600bdb8c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/preceding::figure[2]</value>
+      <webElementGuid>1b624451-8fb0-42ab-9da6-6d439039f2be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//figure</value>
+      <webElementGuid>bd593997-6d15-4a45-bd44-0bdb003407aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

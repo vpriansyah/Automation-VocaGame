@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Nama depan harus terdiri dari setidaknya _409e20</name>
+   <tag></tag>
+   <elementGuidId>878a404c-5b3b-4423-b022-273fe23b5386</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id=':r0:-form-item-message']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>49fa61dd-78cd-4cbb-a550-2033e6342040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>:r0:-form-item-message</value>
+      <webElementGuid>3977f7f7-40be-48bf-b415-7ecfe467dad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-1 font-medium text-destructive h-0 text-[8pt]</value>
+      <webElementGuid>e7962692-0245-4e6a-b1a8-fd05c8280099</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nama depan harus terdiri dari setidaknya 2 karakter.</value>
+      <webElementGuid>9291008b-671c-468d-a09f-3b344556ed0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r0:-form-item-message&quot;)</value>
+      <webElementGuid>9de0b2f4-0bdf-4029-ba7e-7fcfabff05d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id=':r0:-form-item-message']</value>
+      <webElementGuid>7c50b349-c2ff-4811-bcc0-88b6503aa5d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::p[1]</value>
+      <webElementGuid>54760106-ccfa-42f3-9383-f39faccf5fd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::p[1]</value>
+      <webElementGuid>16246280-7934-46dc-b413-151867dc869a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nama depan harus terdiri dari setidaknya 2 karakter.']/parent::*</value>
+      <webElementGuid>7c47934e-417f-4163-ad96-8ff9f4c211b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/p</value>
+      <webElementGuid>f3d0108c-78e8-4b7a-9fe3-b3fb46beb26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = ':r0:-form-item-message' and (text() = 'Nama depan harus terdiri dari setidaknya 2 karakter.' or . = 'Nama depan harus terdiri dari setidaknya 2 karakter.')]</value>
+      <webElementGuid>c6584117-59a1-4c6c-bf2f-4ab5182a04e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

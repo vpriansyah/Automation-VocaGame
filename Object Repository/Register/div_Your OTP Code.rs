@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Your OTP Code</name>
+   <tag></tag>
+   <elementGuidId>f01a7ab3-af20-4435-9f64-4578636b902e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.email-subject</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='emailsList']/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7281390f-1109-47b9-8b1c-7da7ef56b626</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>email-subject</value>
+      <webElementGuid>68ce7718-ad0e-445a-b314-6e28e8b0143b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your OTP Code!</value>
+      <webElementGuid>4b649732-62ec-4676-973c-ef9d0f6b0c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;emailsList&quot;)/div[@class=&quot;email-item unread&quot;]/div[@class=&quot;email-subject&quot;]</value>
+      <webElementGuid>8b5dce92-4892-48d0-954e-8ce5b06a71ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='emailsList']/div/div[2]</value>
+      <webElementGuid>ed9713d7-b6a7-469e-b60e-4d250dcaf0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Just now'])[1]/following::div[1]</value>
+      <webElementGuid>d91d626e-b34a-47dc-a2a4-ce2f262de5ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='no_reply@vocagame.com'])[1]/following::div[2]</value>
+      <webElementGuid>7c60930b-1600-4bbe-862a-ae1969fa39e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Email content is empty)'])[1]/preceding::div[1]</value>
+      <webElementGuid>5cc41442-aef8-4b68-bd36-1b224e5064b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Muat ulang'])[1]/preceding::div[2]</value>
+      <webElementGuid>31082d95-3c25-4457-9831-efe7f5f1d44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your OTP Code!']/parent::*</value>
+      <webElementGuid>2a0a27fd-12a1-40f3-ad3d-c4f010384a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>a90bde5a-a4e5-4c29-8604-5a022fd2a7c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Your OTP Code!' or . = 'Your OTP Code!')]</value>
+      <webElementGuid>c44b54c8-8c52-4472-bef0-74c6be306306</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

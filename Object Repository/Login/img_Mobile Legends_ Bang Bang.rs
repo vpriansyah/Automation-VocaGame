@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Mobile Legends_ Bang Bang</name>
+   <tag></tag>
+   <elementGuidId>d8cdb722-e5bd-4e01-874a-3dedbd498a44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.character [alt=&quot;Mobile\ Legends\:\ Bang\ Bang&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' character ')]//*[@alt = 'Mobile Legends: Bang Bang']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>40779d8a-229d-4d81-8a83-5277a33327e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Mobile Legends: Bang Bang</value>
+      <webElementGuid>d2a1c4f1-7553-4cb2-adac-795aa8aec933</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fetchpriority</name>
+      <type>Main</type>
+      <value>high</value>
+      <webElementGuid>aa37d6c3-c00a-45aa-85d1-072e01bbaca6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>176</value>
+      <webElementGuid>d46797df-397b-4472-b2c6-3cec76528a21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>249</value>
+      <webElementGuid>74b4f1d2-3549-4710-ba6a-e72aeb15b387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>decoding</name>
+      <type>Main</type>
+      <value>async</value>
+      <webElementGuid>966a5c89-8f6f-4933-ac85-f8acfbfabac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-nimg</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>2fab817a-7e8d-472c-a98b-ccf66a73e95f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>duration-700 ease-in-out scale-100 blur-0</value>
+      <webElementGuid>ef8347e6-4903-4209-b92b-f7f1d3a2cab2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://static-src.vocagame.com/vocagame-v2/MLBB_C_1.webp</value>
+      <webElementGuid>6f905093-852b-4fd4-8d3f-56a428e2d1c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2a313d020ebfaf5aa01bdb5f6d10124b</value>
+      <webElementGuid>630c04cf-9265-401c-8dc2-336ec1fee5fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' character ')]//*[@alt = 'Mobile Legends: Bang Bang']</value>
+      <webElementGuid>af833cab-14b2-4550-baa7-0636db69544d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' character ')]//*[@alt = 'Mobile Legends: Bang Bang']</value>
+      <webElementGuid>8766326a-c50e-41a6-a61a-45accd4f6673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Mobile Legends: Bang Bang' and @src = 'https://static-src.vocagame.com/vocagame-v2/MLBB_C_1.webp']</value>
+      <webElementGuid>c74edf26-85b3-400f-89d8-c967a1f3ffb3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

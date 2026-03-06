@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Input ini wajib diisi</name>
+   <tag></tag>
+   <elementGuidId>f8a98888-b06e-48dc-965a-fff2ee4947ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id=':r5:-form-item-message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6c04b840-c9ac-48ea-a717-522e9ee84d42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>:r5:-form-item-message</value>
+      <webElementGuid>36791c6f-878e-4c1a-92db-5caa6c169fb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-1 font-medium text-destructive h-0 text-[8pt]</value>
+      <webElementGuid>8cc18c2c-60a6-465b-8c4f-6ddf73b1b440</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Input ini wajib diisi</value>
+      <webElementGuid>f119dd88-125a-4b9f-ad24-ec87a985bf81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r5:-form-item-message&quot;)</value>
+      <webElementGuid>6e1feb83-06d1-4836-af86-fb1ff90fd8c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id=':r5:-form-item-message']</value>
+      <webElementGuid>22891f06-2fbc-4ccc-95ca-9676fbf86923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP atau email'])[1]/following::p[1]</value>
+      <webElementGuid>8c7f1d68-e927-4847-bb64-87c4982e215e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk Akun'])[1]/preceding::p[1]</value>
+      <webElementGuid>2e1fad8b-41ae-459c-a0cf-699ceaca2a6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atau login melalui akun'])[1]/preceding::p[1]</value>
+      <webElementGuid>89dc0b11-8331-401e-89db-75695b08f8c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Input ini wajib diisi']/parent::*</value>
+      <webElementGuid>d29e82fc-6b74-43eb-af6d-588936a0dbc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/p</value>
+      <webElementGuid>b1ff0bc7-ad33-43f7-b524-e625e641e11f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = ':r5:-form-item-message' and (text() = 'Input ini wajib diisi' or . = 'Input ini wajib diisi')]</value>
+      <webElementGuid>b5ce236c-bdaf-4d1c-a344-bc1d6bc87bab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_QRIS</name>
+   <tag></tag>
+   <elementGuidId>a0835a2b-755f-4b8a-8ba2-7eb6216f7727</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r4kt:']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>598e836c-a847-4efb-982e-0c4736480287</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex w-full gap-2 space-x-1 rounded-lg p-2.5</value>
+      <webElementGuid>f4d6f455-5fd9-43b7-b6d1-600e78b9d8b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QRIS</value>
+      <webElementGuid>fdfe4260-4f09-4e6d-928d-9b3bcc55abfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r4kt:&quot;)/div[@class=&quot;space-y-2 py-4&quot;]/div[@class=&quot;relative rounded-md border-2 border-gray-100 bg-secondary transition-all duration-200 ease-in-out  data-[state=active]:border-primary hover:cursor-pointer hover:border-primary/40&quot;]/div[@class=&quot;flex w-full gap-2 space-x-1 rounded-lg p-2.5&quot;]</value>
+      <webElementGuid>fb16e247-3e36-4bf1-899c-d7951449543b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r4kt:']/div/div/div</value>
+      <webElementGuid>8ea1f4be-699b-44cc-aace-c93cd229f86b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy'])[2]/following::div[15]</value>
+      <webElementGuid>1e1fe50e-99eb-42c4-9c5e-90f96a2629c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 27,819'])[5]/following::div[16]</value>
+      <webElementGuid>4183e380-9f0f-43f9-bd14-ee44e3530b2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Wallet'])[2]/preceding::div[43]</value>
+      <webElementGuid>e53cc058-8f93-4df6-92fc-d9159b6049e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convenience Store'])[2]/preceding::div[46]</value>
+      <webElementGuid>11a1b89d-39b2-4e0a-b785-5d041eaab81f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>99ce8bb7-4103-4229-9c32-8c20897b9eb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'QRIS' or . = 'QRIS')]</value>
+      <webElementGuid>238b3301-7346-4e7b-958d-9b37f873c8f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

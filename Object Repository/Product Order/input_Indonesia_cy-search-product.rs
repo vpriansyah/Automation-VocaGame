@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Indonesia_cy-search-product</name>
+   <tag></tag>
+   <elementGuidId>0999f333-10ed-459f-967a-e69fdfebfe37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>cd98f949-d481-4247-bcb6-2962089c214f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cy-search-product h-8 w-full grow rounded-full bg-gray-200 px-3 py-2 pl-8 text-sm focus:border focus:border-primary focus:bg-white focus-visible:outline-none</value>
+      <webElementGuid>5d4874cd-ddb0-4bfe-a208-bfc459bb3537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Cari</value>
+      <webElementGuid>7aaf5546-a6df-4f99-9103-f71bce5c964c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_646807&quot;]/main[@class=&quot;relative h-full w-full&quot;]/header[@class=&quot;top-0 h-full  w-full duration-300 z-[99] sticky&quot;]/div[@class=&quot;navbar-header z-40 w-full backdrop-blur-lg  backdrop-saturate-200 duration-300 md:border-b bg-white/80&quot;]/div[@class=&quot;container w-full&quot;]/div[@class=&quot;flex w-full items-center justify-between py-3&quot;]/div[@class=&quot;flex w-full items-center space-x-4&quot;]/div[@class=&quot;relative w-full&quot;]/div[@class=&quot;relative flex w-full justify-end&quot;]/div[@class=&quot;hidden w-full md:block&quot;]/input[@class=&quot;cy-search-product h-8 w-full grow rounded-full bg-gray-200 px-3 py-2 pl-8 text-sm focus:border focus:border-primary focus:bg-white focus-visible:outline-none&quot;]</value>
+      <webElementGuid>cbcefcad-355d-4578-abba-eb49cec03192</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>473666df-37f4-4839-adeb-03f76f249e69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>1d9ddef5-2f7a-4b9c-b246-fd5fff0b5c20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Cari']</value>
+      <webElementGuid>d33e3a2d-01a7-41d6-b554-bcfddead1f7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

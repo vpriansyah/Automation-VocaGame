@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buat Akun Active</name>
+   <tag></tag>
+   <elementGuidId>722dc21a-cdc1-46f8-8468-1400d0bc0235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4b1072fe-d250-4c7c-988e-8e9e728cadba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full</value>
+      <webElementGuid>b21f9986-7ea6-4577-be44-d1237479de7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>23a0deed-e68b-4de5-ba82-5ccf47368e19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buat Akun</value>
+      <webElementGuid>f81001ef-acdf-4568-9df0-a3df28e6a8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_646807&quot;]/main[@class=&quot;relative h-full w-full&quot;]/section[@class=&quot;bg-gradient-auth relative min-h-screen justify-center overflow-x-hidden bg-[#f1f1f1] sm:flex sm:items-center sm:bg-cover sm:bg-center sm:bg-no-repeat md:overflow-hidden&quot;]/div[@class=&quot;mx-4 my-6 flex max-w-[902px] -translate-y-32 flex-col-reverse overflow-hidden rounded-2xl lg:container sm:min-h-[700px] sm:translate-y-0 sm:bg-white lg:mx-0 lg:flex-row&quot;]/div[@class=&quot;h-full w-full sm:p-6 lg:w-1/2&quot;]/form[@class=&quot;mt-6 space-y-6&quot;]/button[@class=&quot;inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full&quot;]</value>
+      <webElementGuid>ab6c41f8-cc28-494f-8df2-774d52ed93a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>2d0ba18e-d9b8-4200-902a-fb054be396ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[1]/following::button[1]</value>
+      <webElementGuid>68d8fe66-5f52-444b-aa34-a20a90e46f1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Syarat &amp; Ketentuan'])[1]/following::button[1]</value>
+      <webElementGuid>4ce8356f-ac37-4ba6-9353-bb2ec4aff35e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk Sekarang'])[1]/preceding::button[1]</value>
+      <webElementGuid>a75e23e6-5325-48fd-a55f-7a0334a57180</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/preceding::button[1]</value>
+      <webElementGuid>bec77b95-8fbc-4640-bb7d-660e1de905f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buat Akun']/parent::*</value>
+      <webElementGuid>10e5f449-fd3f-41a0-9bb2-b2850de009ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>428e036f-bb15-4bc1-b869-85df414663c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Buat Akun' or . = 'Buat Akun')]</value>
+      <webElementGuid>b8335e8b-b485-4e84-acc3-aef3f3e66c57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

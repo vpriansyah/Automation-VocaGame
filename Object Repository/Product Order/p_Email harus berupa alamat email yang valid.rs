@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Email harus berupa alamat email yang valid</name>
+   <tag></tag>
+   <elementGuidId>71bd9bee-fbad-41c5-9db4-a4f2a4b0a8d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id=':r88i:-form-item-message']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1852e2f1-de02-4526-af47-e14005ecefb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>:r88i:-form-item-message</value>
+      <webElementGuid>4eadee94-095c-4cc7-a4a6-5bcf7b1cac3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-1 font-medium text-destructive text-[8pt]</value>
+      <webElementGuid>1bb72602-1fa4-48f6-8076-03ab6b0bbb68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email harus berupa alamat email yang valid</value>
+      <webElementGuid>59950bf2-9595-4717-bde5-f9cc4a828c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r88i:-form-item-message&quot;)</value>
+      <webElementGuid>1cd40b3d-6876-4e17-990d-b0e0a41459d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id=':r88i:-form-item-message']</value>
+      <webElementGuid>c4a28d4e-c496-4f38-b06a-f73cb3347592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='product-form']/div[2]/div[2]/div/div/div/p</value>
+      <webElementGuid>d92bc976-c5f9-4515-9c00-4b6b0ff5b96d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::p[1]</value>
+      <webElementGuid>d81224c2-a590-4b3a-ae55-d6f83cdc0e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Denomination'])[1]/preceding::p[2]</value>
+      <webElementGuid>f30061d7-e837-4e50-b194-a3128d3a7120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email harus berupa alamat email yang valid']/parent::*</value>
+      <webElementGuid>de4f69f7-3d3f-411c-93e2-f9abbe9f475d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/p</value>
+      <webElementGuid>6222b733-9546-4038-b0d2-9c75fb9eab38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = ':r88i:-form-item-message' and (text() = 'Email harus berupa alamat email yang valid' or . = 'Email harus berupa alamat email yang valid')]</value>
+      <webElementGuid>459dd5ad-50db-466a-9b3e-ab6f9c6824cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

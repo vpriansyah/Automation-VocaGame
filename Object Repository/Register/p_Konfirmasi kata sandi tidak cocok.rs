@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Konfirmasi kata sandi tidak cocok</name>
+   <tag></tag>
+   <elementGuidId>7a136deb-8731-40aa-b413-a9850b63cf94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id=':r5:-form-item-message']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4c452fb3-7f68-4515-81bf-1c4d5223c833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>:r5:-form-item-message</value>
+      <webElementGuid>91f24a29-7494-4369-8e79-efa3d815b41f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-1 font-medium text-destructive h-0 text-[8pt]</value>
+      <webElementGuid>8cf94e47-b272-4ec6-a779-fb0300f55da3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfirmasi kata sandi tidak cocok.</value>
+      <webElementGuid>c37b62b5-1108-4894-821a-ee7805248a7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r5:-form-item-message&quot;)</value>
+      <webElementGuid>b6ded464-3f06-401f-b8dd-9d91dc1333ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id=':r5:-form-item-message']</value>
+      <webElementGuid>375f9b6b-5f3d-4601-ba7e-83a8c5a3b138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::p[1]</value>
+      <webElementGuid>e37d5301-3f4c-476a-87fa-b028f1d1ad87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konfirmasi kata sandi tidak cocok.']/parent::*</value>
+      <webElementGuid>4e9e9a22-735b-4c03-a507-69f214af60c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/p</value>
+      <webElementGuid>5d542eb4-d3b0-4a69-9ff6-221380e764ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = ':r5:-form-item-message' and (text() = 'Konfirmasi kata sandi tidak cocok.' or . = 'Konfirmasi kata sandi tidak cocok.')]</value>
+      <webElementGuid>93e1c7c9-5484-409a-9d4b-f9a4aa0f2712</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Akun yang anda masukkan tidak terdaftar</name>
+   <tag></tag>
+   <elementGuidId>ba0c6140-c5cb-4716-8729-ce38992a9266</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-red-500</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form']/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6a29da09-1923-49fc-8799-93157e3575c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-red-500</value>
+      <webElementGuid>91fb54b9-eb65-4b95-919d-55b873244c12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Akun yang anda masukkan tidak terdaftar</value>
+      <webElementGuid>6a62eed3-bf58-4e11-964e-d5760822b688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form&quot;)/p[@class=&quot;text-red-500&quot;]</value>
+      <webElementGuid>09f0ba49-6bc9-4ebf-b382-2940f0c0f08c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form']/p</value>
+      <webElementGuid>9bde5d23-b4a8-4643-a826-3b7a8f72ca28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::p[2]</value>
+      <webElementGuid>b2f673e2-4cf2-4aa0-8b79-67b8392d6273</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan Kontak Anda'])[1]/preceding::p[1]</value>
+      <webElementGuid>3cd93870-52e4-4972-b525-1a2ba92d4f85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Akun yang anda masukkan tidak terdaftar']/parent::*</value>
+      <webElementGuid>d6f4cd03-1056-403f-9f36-f63a371659e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/p</value>
+      <webElementGuid>4d4f35d6-7933-4c6f-9ac2-3d0053f92c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Akun yang anda masukkan tidak terdaftar' or . = 'Akun yang anda masukkan tidak terdaftar')]</value>
+      <webElementGuid>fb06caf3-305e-4dbb-a5d9-19068d0d99b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

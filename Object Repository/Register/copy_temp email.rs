@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>copy_temp email</name>
+   <tag></tag>
+   <elementGuidId>1c14a36f-6e75-4863-948c-0f4176bad6b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Temporary Email'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.text-gray-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>4e078047-5633-4c01-a63b-6a87f1c2cf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>d1018222-7c00-4ed9-a1d1-9036369d283f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>7c24e378-4be8-48b7-884f-5e8624607122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>806d03ea-8130-415b-b6fa-64080f41612a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>7a811fee-b0de-4a4d-b58b-8305e99c7c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 256 256</value>
+      <webElementGuid>2446c1e9-8fa7-4d52-a245-d4de9627370a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-id</name>
+      <type>Main</type>
+      <value>copy-to-clipboard</value>
+      <webElementGuid>a9a43607-f020-4969-a83f-e0ffeb74b947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-gray-50</value>
+      <webElementGuid>b3aec7e3-873a-4bd9-a7dc-d4172b353bea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;flex flex-col overflow-hidden&quot;]/section[@class=&quot;flex items-start justify-center overflow-hidden  px-6 pb-20 pt-32&quot;]/div[@class=&quot;flex w-full flex-col items-center justify-center space-y-10  px-2 md:max-w-[720px]&quot;]/div[@class=&quot;flex w-full max-w-3xl flex-col items-center rounded-2xl border-4 border-primary/7 bg-primary/2 p-9 lg:max-w-2xl&quot;]/div[@class=&quot;flex w-full flex-col items-center justify-center gap-3 md:flex-row&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center rounded-xl md:w-screen md:max-w-[500px] border border-gray-20&quot;]/button[@class=&quot;flex h-full w-full cursor-pointer flex-row items-center justify-between rounded-xl bg-white text-gray-80 shadow-sm  px-4 py-3&quot;]/svg[@class=&quot;text-gray-50&quot;]</value>
+      <webElementGuid>01eecc46-6a21-4a40-b66f-c191de88f957</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Temporary Email'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b5543f98-ba75-4413-8418-8c7c9210361c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/following::*[name()='svg'][1]</value>
+      <webElementGuid>07e5f139-cf14-4425-b2a2-1210791b8ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='with Internxt'])[1]/preceding::*[name()='svg'][7]</value>
+      <webElementGuid>88504433-08eb-4abf-9954-9b2c8431217b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get 1 GB'])[1]/preceding::*[name()='svg'][8]</value>
+      <webElementGuid>2ee9bd8b-761a-439f-8915-95eba9afecda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

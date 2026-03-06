@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_280640 (2)</name>
+   <tag></tag>
+   <elementGuidId>3aa87e3a-251b-4458-b07c-bc868ced53bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='inbox']/div[2]/div/div/div[3]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>453ae6f8-dc7c-4b91-8a45-6b9bfde75249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>280640</value>
+      <webElementGuid>e0bdf990-8a18-4078-9be5-7698e312a5a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;inbox&quot;)/div[@class=&quot;flex overflow-y-scroll&quot;]/div[@class=&quot;flex h-full w-screen&quot;]/div[@class=&quot;flex w-full flex-col space-y-5 overflow-y-scroll p-10&quot;]/div[@class=&quot;flex w-full flex-col&quot;]/div[1]/div[1]/p[1]</value>
+      <webElementGuid>d0d64062-e29a-4d80-ad49-072cf6a571f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inbox']/div[2]/div/div/div[3]/div/div/p</value>
+      <webElementGuid>a7010953-10ce-4994-a2cb-95103ea9e819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Free Temporary Email'])[1]/following::p[18]</value>
+      <webElementGuid>45a14a31-db5c-4f59-a3d4-69041cac01df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/following::p[18]</value>
+      <webElementGuid>28e1eec7-88cf-468b-8eab-2155b29b1bf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='with Internxt'])[1]/preceding::p[12]</value>
+      <webElementGuid>a69622e5-c7e1-4e4d-baae-4e1de90186fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get 1 GB'])[1]/preceding::p[13]</value>
+      <webElementGuid>715a9def-8e97-4b54-a090-171d52444f8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='280640']/parent::*</value>
+      <webElementGuid>9a55f936-f394-46db-9d19-36e0b24b39cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/p</value>
+      <webElementGuid>06620ff9-2b69-4ca1-a5d9-9b6e61e5f833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '280640' or . = '280640')]</value>
+      <webElementGuid>bf502756-b28e-4fd9-b8ad-dce7e0e03523</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

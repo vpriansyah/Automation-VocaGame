@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buy</name>
+   <tag></tag>
+   <elementGuidId>07c257d9-4381-4b39-8eaa-33fbc4b58bc2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'Buy')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9b42d7d6-5af5-4dad-979f-33d584557b66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center font-bold justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 h-10 px-4 py-2 w-full rounded-full sm:w-full md:rounded-lg</value>
+      <webElementGuid>d73b21df-da7a-4fd8-90ab-90ecd3cfca30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy</value>
+      <webElementGuid>530586f1-efce-497b-ad65-05832246ce38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:rim:&quot;)/div[@class=&quot;relative col-span-2 hidden w-full rounded-tl-2xl bg-white py-6 shadow-[0px_0px_6px_0px_rgba(40,40,40,0.12)] md:px-8 lg:block&quot;]/div[@class=&quot;relative z-20 mb-2.5 flex w-full justify-center sm:block sm:w-full md:mb-0&quot;]/button[@class=&quot;inline-flex items-center font-bold justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 h-10 px-4 py-2 w-full rounded-full sm:w-full md:rounded-lg&quot;]</value>
+      <webElementGuid>09cb426f-3ddf-401a-b777-ea5f693cf489</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:rim:']/div[2]/div[2]/button</value>
+      <webElementGuid>910f4937-9517-45c0-840b-aef53633693f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 28,387'])[3]/following::button[1]</value>
+      <webElementGuid>2ad9a5d9-063e-4085-9f57-f37d9e7c76dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/following::button[1]</value>
+      <webElementGuid>6a88c313-e652-462c-ab26-e03c1a08f5c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pakai voucher biar makin untung'])[2]/preceding::button[1]</value>
+      <webElementGuid>fddb286c-f42d-465b-a469-7e1df281e09d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nominal'])[4]/preceding::button[1]</value>
+      <webElementGuid>a27781c9-ca23-4336-8561-2a86b4a8ca77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/div[2]/button</value>
+      <webElementGuid>88ef7407-6def-4319-b229-dc252c54e2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Buy' or . = 'Buy')]</value>
+      <webElementGuid>d71a3c4a-1d17-43ab-b749-7f550ca1eba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r4cs:']/div[2]/div[2]/button</value>
+      <webElementGuid>2daa9902-9432-4e3f-b98b-8be539f7f68e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
