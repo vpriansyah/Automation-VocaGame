@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="260.924" tests="8" failures="1" errors="0">
+   <testsuite name="Register" tests="8" failures="1" errors="0" time="260.924" skipped="0" timestamp="2026-03-06T13:38:42.013Z" hostname="x1 carbon - DESKTOP-72PBSPN" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_203827\\Register\\20260306_203827"/>
+         <property name="logFiles" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_203827\\Register\\20260306_203827\\console0.log, D:\\VocaGame\\VocaGame\\Reports\\20260306_203827\\Register\\20260306_203827\\execution0.log"/>
+         <property name="attachments" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_203827\\Register\\20260306_203827\\1772804582372.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="x1 carbon - DESKTOP-72PBSPN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Edge Chromium 145.0.3800.82"/>
+         <property name="userFullName" value="Devanz"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="93af2cd13a8748ae5d61100eb9261a3a"/>
+         <property name="projectName" value="VocaGame"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC_REG_01" time="78.278" classname="Test Cases/Register/TC_REG_01" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:38:42 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_01: Test Cases/Register/TC_REG_01
+
+06-03-2026T20:38:44 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:38:45 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:38:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:38:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:38:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:38:52 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:38:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:38:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:39:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:39:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:39:07 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:39:08 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:39:08 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:39:08 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08200781893' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:39:09 - [MESSAGE][PASSED] - Text '08200781893' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Email"), "getam30828@keecs.com"): Text 'getam30828@keecs.com' is set on object 'Object Repository/Register/input_Email'
+
+06-03-2026T20:39:10 - [MESSAGE][PASSED] - Text 'getam30828@keecs.com' is set on object 'Object Repository/Register/input_Email'
+
+06-03-2026T20:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:39:11 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Konfirmasi Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:39:13 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:39:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:39:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T20:39:15 - [TEST_STEP][WARNING] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit">...</button> is not clickable at point (606, 789). Other element would receive the click: <div data-state="open" class="fixed inset-0 z-[9999999] bg-black/30 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" style="pointer-events: auto;"></div>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [f7e42fe08df109569860eee11149100a, clickElement {id=f.C67FCB866D3F471D59F8625E8FF4A236.d.F4E8CFAFF8CE3A5A2850748B97A9D434.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24072, ms:edgeOptions: {debuggerAddress: localhost:59215}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59215/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:24298/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (f7e42fe08df109569860eee11149100a)] -> xpath: //button[@type='submit']]
+Session ID: f7e42fe08df109569860eee11149100a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$jKAkKma0.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:67)
+	... 13 more
+)
+
+06-03-2026T20:39:25 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-03-2026T20:39:26 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit">...</button> is not clickable at point (606, 789). Other element would receive the click: <div data-state="open" class="fixed inset-0 z-[9999999] bg-black/30 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" style="pointer-events: auto;"></div>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [f7e42fe08df109569860eee11149100a, clickElement {id=f.C67FCB866D3F471D59F8625E8FF4A236.d.F4E8CFAFF8CE3A5A2850748B97A9D434.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24072, ms:edgeOptions: {debuggerAddress: localhost:59215}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59215/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:24298/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (f7e42fe08df109569860eee11149100a)] -> xpath: //button[@type='submit']]
+Session ID: f7e42fe08df109569860eee11149100a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$jKAkKma0.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:67)
+	... 13 more
+)
+
+06-03-2026T20:39:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:39:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T20:39:27 - [TEST_STEP][WARNING] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit">...</button> is not clickable at point (606, 789). Other element would receive the click: <div data-state="open" class="fixed inset-0 z-[9999999] bg-black/30 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" style="pointer-events: auto;"></div>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [f7e42fe08df109569860eee11149100a, clickElement {id=f.C67FCB866D3F471D59F8625E8FF4A236.d.F4E8CFAFF8CE3A5A2850748B97A9D434.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24072, ms:edgeOptions: {debuggerAddress: localhost:59215}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59215/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:24298/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (f7e42fe08df109569860eee11149100a)] -> xpath: //button[@type='submit']]
+Session ID: f7e42fe08df109569860eee11149100a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$jKAkKma0.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:71)
+	... 13 more
+)
+
+06-03-2026T20:39:37 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-03-2026T20:39:38 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit">...</button> is not clickable at point (606, 789). Other element would receive the click: <div data-state="open" class="fixed inset-0 z-[9999999] bg-black/30 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" style="pointer-events: auto;"></div>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [f7e42fe08df109569860eee11149100a, clickElement {id=f.C67FCB866D3F471D59F8625E8FF4A236.d.F4E8CFAFF8CE3A5A2850748B97A9D434.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24072, ms:edgeOptions: {debuggerAddress: localhost:59215}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59215/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:24298/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (f7e42fe08df109569860eee11149100a)] -> xpath: //button[@type='submit']]
+Session ID: f7e42fe08df109569860eee11149100a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$jKAkKma0.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:71)
+	... 13 more
+)
+
+06-03-2026T20:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Register/li_Kirim OTP via Emailh1jtwdollicons.com")): Object: 'Object Repository/Register/li_Kirim OTP via Emailh1jtwdollicons.com' is clicked on
+
+06-03-2026T20:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/li_Kirim OTP via Emailh1jtwdollicons.com' is clicked on
+
+06-03-2026T20:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Lanjutkan"), OPTIONAL): Object: 'Object Repository/Register/button_Lanjutkan' is clicked on
+
+06-03-2026T20:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Lanjutkan' is clicked on
+
+06-03-2026T20:39:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:39:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T20:39:41 - [TEST_STEP][WARNING] - click(findTestObject("Register/button_Lanjutkan"), OPTIONAL): Unable to click on object 'Object Repository/Register/button_Lanjutkan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Lanjutkan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/button_Lanjutkan' located by 'By.xpath: //div[@id='radix-:r7:']/div/div/div/button[3]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:82)
+	... 13 more
+)
+
+06-03-2026T20:39:51 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Register/button_Lanjutkan' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Lanjutkan'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_01.run(TC_REG_01:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/button_Lanjutkan' located by 'By.xpath: //div[@id='radix-:r7:']/div/div/div/button[3]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772707223352.run(Script1772707223352.groovy:82)
+	... 13 more
+)
+
+06-03-2026T20:39:51 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+06-03-2026T20:39:58 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+06-03-2026T20:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Verifikasi OTP")): Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T20:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T20:39:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:40:00 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_02" time="26.451" classname="Test Cases/Register/TC_REG_02" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:40:00 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_02: Test Cases/Register/TC_REG_02
+
+06-03-2026T20:40:01 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:40:01 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:40:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:40:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:40:04 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:40:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:40:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:40:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:40:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "a"): Text 'a' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:40:16 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "a"): Text 'a' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:40:17 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:40:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:40:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:40:20 - [TEST_STEP][PASSED] - verifyTextPresent("Nama depan harus terdiri dari setidaknya 2 karakter.", false): Text 'Nama depan harus terdiri dari setidaknya 2 karakter.' is present on page 
+
+06-03-2026T20:40:20 - [MESSAGE][PASSED] - Text 'Nama depan harus terdiri dari setidaknya 2 karakter.' is present on page 
+
+06-03-2026T20:40:20 - [TEST_STEP][PASSED] - verifyTextPresent("Nama belakang harus terdiri dari setidaknya 2 karakter.", false): Text 'Nama belakang harus terdiri dari setidaknya 2 karakter.' is present on page 
+
+06-03-2026T20:40:21 - [MESSAGE][PASSED] - Text 'Nama belakang harus terdiri dari setidaknya 2 karakter.' is present on page 
+
+06-03-2026T20:40:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Register/button_Buat Akun Active"), 5): Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:40:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:40:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:40:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:40:27 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_03" time="21.766" classname="Test Cases/Register/TC_REG_03" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:40:27 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_03: Test Cases/Register/TC_REG_03
+
+06-03-2026T20:40:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:40:28 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:40:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:40:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:40:31 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:40:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:40:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:40:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:40:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:40:42 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:40:43 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:40:43 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:40:44 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:40:44 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Email"), "aaaaa"): Text 'aaaaa' is set on object 'Object Repository/Register/input_Email'
+
+06-03-2026T20:40:45 - [MESSAGE][PASSED] - Text 'aaaaa' is set on object 'Object Repository/Register/input_Email'
+
+06-03-2026T20:40:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:40:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T20:40:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Register/p_Harap masukkan alamat email yang valid"), "Harap masukkan alamat email yang valid."): Actual text and expected text of test object 'Object Repository/Register/p_Harap masukkan alamat email yang valid' are matched.
+
+06-03-2026T20:40:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/p_Harap masukkan alamat email yang valid' are matched.
+
+06-03-2026T20:40:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Register/button_Buat Akun Active"), 5): Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:40:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:40:47 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:40:47 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:40:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:40:49 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_04" time="24.949" classname="Test Cases/Register/TC_REG_04" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:40:49 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_04: Test Cases/Register/TC_REG_04
+
+06-03-2026T20:40:49 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:40:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:40:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:40:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:40:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:40:53 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:40:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:40:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:41:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:41:03 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:04 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:04 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:05 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:05 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:41:05 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:41:05 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08696448487' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:07 - [MESSAGE][PASSED] - Text '08696448487' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:07 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), "password@1"): Text 'password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:08 - [MESSAGE][PASSED] - Text 'password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:41:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T20:41:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Register/button_Buat Akun Active"), 5): Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:41:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:41:11 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:41:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:41:14 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_05" time="25.404" classname="Test Cases/Register/TC_REG_05" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:41:14 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_05: Test Cases/Register/TC_REG_05
+
+06-03-2026T20:41:14 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:41:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:41:14 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:41:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:41:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:41:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:41:18 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:41:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:41:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:41:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:30 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:30 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:31 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:31 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:41:31 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08394310651' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:32 - [MESSAGE][PASSED] - Text '08394310651' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:33 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), "Password1"): Text 'Password1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:34 - [MESSAGE][PASSED] - Text 'Password1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:41:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T20:41:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Register/button_Buat Akun Active"), 5): Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:41:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Register/button_Buat Akun Active' successfully
+
+06-03-2026T20:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:41:37 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:41:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:41:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_06" time="23.859" classname="Test Cases/Register/TC_REG_06" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:41:39 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_06: Test Cases/Register/TC_REG_06
+
+06-03-2026T20:41:39 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:41:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:41:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:41:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:41:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:41:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:41:43 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:41:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:41:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:41:49 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:41:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:41:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:55 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:56 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:41:56 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:41:56 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08119566765' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:57 - [MESSAGE][PASSED] - Text '08119566765' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:41:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:58 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:58 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Konfirmasi Password"), "Password"): Text 'Password' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:00 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Register/p_Konfirmasi kata sandi tidak cocok"), "Konfirmasi kata sandi tidak cocok."): Actual text and expected text of test object 'Object Repository/Register/p_Konfirmasi kata sandi tidak cocok' are matched.
+
+06-03-2026T20:42:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Register/p_Konfirmasi kata sandi tidak cocok' are matched.
+
+06-03-2026T20:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:42:00 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:42:01 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:42:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:42:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_07" time="21.249" classname="Test Cases/Register/TC_REG_07" status="PASSED">
+         <system-out><![CDATA[06-03-2026T20:42:03 - [TEST_CASE][PASSED] - Test Cases/Register/TC_REG_07: Test Cases/Register/TC_REG_07
+
+06-03-2026T20:42:03 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:42:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:42:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:42:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:42:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:42:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:42:06 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:42:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:42:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:42:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:42:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:42:17 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:42:18 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:42:18 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:42:19 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:42:19 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:42:19 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08856608382' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:42:20 - [MESSAGE][PASSED] - Text '08856608382' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:42:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:42:21 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:42:21 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:42:22 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:42:22 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Konfirmasi Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:23 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:23 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Register/button_Buat Akun Active")): Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:42:23 - [MESSAGE][PASSED] - Object 'Object Repository/Register/button_Buat Akun Active' is NOT clickable
+
+06-03-2026T20:42:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T20:42:24 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_REG_08" time="38.233" classname="Test Cases/Register/TC_REG_08" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC_REG_08 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'User sudah terdaftar' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)&#xa;	at TC_REG_08.run(TC_REG_08:60)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 18 more&#xa;"/>
+         <system-out><![CDATA[06-03-2026T20:42:24 - [TEST_CASE][FAILED] - Test Cases/Register/TC_REG_08: Test Cases/Register/TC_REG_08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'User sudah terdaftar' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_REG_08.run(TC_REG_08:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+
+06-03-2026T20:42:24 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:42:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T20:42:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T20:42:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T20:42:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T20:42:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T20:42:28 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T20:42:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T20:42:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T20:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T20:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Daftar Sekarang")): Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Daftar Sekarang' is clicked on
+
+06-03-2026T20:42:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T20:42:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T20:42:39 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Depan"), "Devan"): Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:42:40 - [MESSAGE][PASSED] - Text 'Devan' is set on object 'Object Repository/Register/input__Nama Depan'
+
+06-03-2026T20:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Nama Belakang"), "Putra"): Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:42:41 - [MESSAGE][PASSED] - Text 'Putra' is set on object 'Object Repository/Register/input__Nama Belakang'
+
+06-03-2026T20:42:41 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+06-03-2026T20:42:41 - [TEST_STEP][PASSED] - phoneNumber = "08" + 100000000 + rand.nextInt(900000000): null
+
+06-03-2026T20:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Whatsapp"), phoneNumber): Text '08410842574' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:42:42 - [MESSAGE][PASSED] - Text '08410842574' is set on object 'Object Repository/Register/input_Whatsapp'
+
+06-03-2026T20:42:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:42:43 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+06-03-2026T20:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:42:44 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Password'
+
+06-03-2026T20:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input__Konfirmasi Password"), password): Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:45 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Register/input__Konfirmasi Password'
+
+06-03-2026T20:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Register/Checklist TnC")): Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/Checklist TnC' is clicked on
+
+06-03-2026T20:42:45 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:42:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:42:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T20:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Buat Akun Active' is clicked on
+
+06-03-2026T20:42:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T20:42:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T20:42:50 - [TEST_STEP][WARNING] - click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL): Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_08.run(TC_REG_08:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit" disabled="">...</button> is not clickable at point (606, 746). Other element would receive the click: <form class="mt-6 space-y-6" siq_id="autopick_dzyqeft46v" data-gtm-form-interact-id="0">...</form>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [93af2cd13a8748ae5d61100eb9261a3a, clickElement {id=f.181BF6C10EF7B0002AC6702AE53FE06C.d.6C902EE08F7A77CDB05E2DF045E5A2A8.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24324, ms:edgeOptions: {debuggerAddress: localhost:56074}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22210/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (93af2cd13a8748ae5d61100eb9261a3a)] -> xpath: //button[@type='submit']]
+Session ID: 93af2cd13a8748ae5d61100eb9261a3a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$0IngXYzn.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772780284835.run(Script1772780284835.groovy:58)
+	... 13 more
+)
+
+06-03-2026T20:43:00 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-03-2026T20:43:02 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Register/button_Buat Akun Active' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Register/button_Buat Akun Active'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at TC_REG_08.run(TC_REG_08:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="inline-flex items-center font-bold justify-center whitespace-nowrap rounded-lg text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-white hover:bg-primary/90 px-4 py-2 !mt-6 h-12 w-full" type="submit" disabled="">...</button> is not clickable at point (606, 746). Other element would receive the click: <form class="mt-6 space-y-6" siq_id="autopick_dzyqeft46v" data-gtm-form-interact-id="0">...</form>
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [93af2cd13a8748ae5d61100eb9261a3a, clickElement {id=f.181BF6C10EF7B0002AC6702AE53FE06C.d.6C902EE08F7A77CDB05E2DF045E5A2A8.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 24324, ms:edgeOptions: {debuggerAddress: localhost:56074}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56074/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22210/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (93af2cd13a8748ae5d61100eb9261a3a)] -> xpath: //button[@type='submit']]
+Session ID: 93af2cd13a8748ae5d61100eb9261a3a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$0IngXYzn.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1772780284835.run(Script1772780284835.groovy:58)
+	... 13 more
+)
+
+06-03-2026T20:43:02 - [TEST_STEP][FAILED] - verifyTextPresent("User sudah terdaftar", false): Unable to verify text 'User sudah terdaftar' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'User sudah terdaftar' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_REG_08.run(TC_REG_08:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+
+06-03-2026T20:43:02 - [MESSAGE][FAILED] - Text 'User sudah terdaftar' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_REG_08.run(TC_REG_08:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T20:43:02 - [MESSAGE][FAILED] - Unable to verify text 'User sudah terdaftar' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'User sudah terdaftar' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_REG_08.run(TC_REG_08:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+[[ATTACHMENT|D:\\VocaGame\\VocaGame\\Reports\\20260306_203827\\Register\\20260306_203827\\1772804582372.png]]]]></system-out>
+         <system-err><![CDATA[06-03-2026T20:42:24 - [TEST_CASE][FAILED] - Test Cases/Register/TC_REG_08: Test Cases/Register/TC_REG_08 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'User sudah terdaftar' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_REG_08.run(TC_REG_08:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'User sudah terdaftar' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2026T20:38:42 - [TEST_SUITE][FAILED] - Register: null]]></system-out>
+      <system-err><![CDATA[06-03-2026T20:38:42 - [TEST_SUITE][FAILED] - Register: null]]></system-err>
+   </testsuite>
+</testsuites>

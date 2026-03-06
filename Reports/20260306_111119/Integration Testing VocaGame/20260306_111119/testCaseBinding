@@ -1,0 +1,23 @@
+{"testCaseExecutionId":"57a2a4bc-c1cd-4f43-b5d4-7f3ce90bb518","testCaseName":"Test Cases/Register/TC_REG_01","testCaseId":"Test Cases/Register/TC_REG_01","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"60c73bb3-8413-45d2-af42-ad7a5c016c67","testCaseName":"Test Cases/Register/TC_REG_02","testCaseId":"Test Cases/Register/TC_REG_02","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"de487e6b-fb60-4a17-b400-7291c3815338","testCaseName":"Test Cases/Register/TC_REG_03","testCaseId":"Test Cases/Register/TC_REG_03","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"61ea12a7-3738-403c-8933-3029f94eec9f","testCaseName":"Test Cases/Register/TC_REG_04","testCaseId":"Test Cases/Register/TC_REG_04","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"fa68e362-7000-4d61-b218-ee5fab262225","testCaseName":"Test Cases/Register/TC_REG_05","testCaseId":"Test Cases/Register/TC_REG_05","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"b6c3f24d-adc9-4a3c-8f2b-d113e90c8e47","testCaseName":"Test Cases/Register/TC_REG_06","testCaseId":"Test Cases/Register/TC_REG_06","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"9d7e835e-7d6f-4f79-9782-9dd8605582b7","testCaseName":"Test Cases/Register/TC_REG_07","testCaseId":"Test Cases/Register/TC_REG_07","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"75022a89-2acb-4333-9bc6-4ce7a134c7dc","testCaseName":"Test Cases/Login/TC_LOG_01","testCaseId":"Test Cases/Login/TC_LOG_01","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"0cc04e2a-1d5f-4615-b111-a2b36f054416","testCaseName":"Test Cases/Login/TC_LOG_02","testCaseId":"Test Cases/Login/TC_LOG_02","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"99ba21ca-fa6b-4101-b0ad-5e3ec95dde0a","testCaseName":"Test Cases/Login/TC_LOG_03","testCaseId":"Test Cases/Login/TC_LOG_03","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"03521307-c885-43a8-835c-be182a6cf47e","testCaseName":"Test Cases/Login/TC_LOG_04","testCaseId":"Test Cases/Login/TC_LOG_04","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"36c1dcc1-7648-4edb-82ec-dc64e64c4a05","testCaseName":"Test Cases/Login/TC_LOG_05","testCaseId":"Test Cases/Login/TC_LOG_05","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"64eb1503-fd87-4eb5-9f3a-4f8d56e382c7","testCaseName":"Test Cases/Login/TC_LOG_06","testCaseId":"Test Cases/Login/TC_LOG_06","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"186e2f51-d937-4559-af37-893c5daaa797","testCaseName":"Test Cases/Product Order/TC_PO_01","testCaseId":"Test Cases/Product Order/TC_PO_01","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"6ddf8af6-fd64-4f50-9093-1b535f3705f2","testCaseName":"Test Cases/Product Order/TC_PO_02","testCaseId":"Test Cases/Product Order/TC_PO_02","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"9e181797-9386-43d3-835f-5f1c32994b57","testCaseName":"Test Cases/Product Order/TC_PO_03","testCaseId":"Test Cases/Product Order/TC_PO_03","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"9f13ca60-e7de-4415-9acf-8318a5f09edc","testCaseName":"Test Cases/Product Order/TC_PO_04","testCaseId":"Test Cases/Product Order/TC_PO_04","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"1c5655ac-4578-461d-a61a-ff7058afd08c","testCaseName":"Test Cases/Product Order/TC_PO_05","testCaseId":"Test Cases/Product Order/TC_PO_05","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"2eb180c9-5e00-4b97-88da-eed0b5277756","testCaseName":"Test Cases/Product Order/TC_PO_06","testCaseId":"Test Cases/Product Order/TC_PO_06","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"47672c7c-4583-484d-bd85-255ac4861db0","testCaseName":"Test Cases/Forgot Password/TC_FP_01","testCaseId":"Test Cases/Forgot Password/TC_FP_01","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"3122473a-c120-4e40-811c-b22b00f80184","testCaseName":"Test Cases/Forgot Password/TC_FP_02","testCaseId":"Test Cases/Forgot Password/TC_FP_02","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"4fd4d09d-04f5-4293-b89f-59741dc261d0","testCaseName":"Test Cases/Forgot Password/TC_FP_03","testCaseId":"Test Cases/Forgot Password/TC_FP_03","iterationVariableName":"","bindedValues":{}}
+{"testCaseExecutionId":"44ad7e9f-85c7-45ce-86db-dae45dbfe822","testCaseName":"Test Cases/Forgot Password/TC_FP_04","testCaseId":"Test Cases/Forgot Password/TC_FP_04","iterationVariableName":"","bindedValues":{}}

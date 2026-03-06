@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:33,06-03-2026 16:40:41,2m - 8.183s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_01,Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:33,06-03-2026 16:38:58,24.962s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:34,06-03-2026 16:38:39,5.436s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:39,06-03-2026 16:38:40,0.815s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:40,06-03-2026 16:38:43,3.147s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:43,06-03-2026 16:38:44,0.737s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:44,06-03-2026 16:38:47,2.737s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:47,06-03-2026 16:38:47,0.550s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:47,06-03-2026 16:38:48,1.001s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:48,06-03-2026 16:38:53,5.016s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:53,06-03-2026 16:38:54,0.504s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:54,06-03-2026 16:38:55,1.137s,WARNING
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:55,06-03-2026 16:38:58,3.042s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_02,Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:58,06-03-2026 16:39:19,21.321s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:38:58,06-03-2026 16:39:01,3.000s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:01,06-03-2026 16:39:02,0.356s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:02,06-03-2026 16:39:05,3.078s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:05,06-03-2026 16:39:05,0.573s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""vpriansyah@gmail.com"")",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:05,06-03-2026 16:39:07,2.326s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:07,06-03-2026 16:39:08,0.680s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:08,06-03-2026 16:39:09,0.982s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:09,06-03-2026 16:39:14,5.019s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:14,06-03-2026 16:39:15,0.498s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:15,06-03-2026 16:39:16,1.048s,PASSED
+"verifyTextPresent(""Kata sandi salah"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:16,06-03-2026 16:39:16,0.548s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:16,06-03-2026 16:39:19,3.009s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_03,Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:19,06-03-2026 16:39:47,28.190s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:19,06-03-2026 16:39:22,2.897s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:22,06-03-2026 16:39:23,0.375s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:23,06-03-2026 16:39:26,3.084s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:26,06-03-2026 16:39:26,0.561s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""aaaaaaaa"")",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:26,06-03-2026 16:39:29,2.332s,PASSED
+"verifyElementPresent(findTestObject(""Login/p_Email harus berupa alamat email yang valid""), 3)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:29,06-03-2026 16:39:29,0.399s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:29,06-03-2026 16:39:34,5.011s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:34,06-03-2026 16:39:44,10.039s,WARNING
+"verifyElementNotClickable(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:44,06-03-2026 16:39:44,0.326s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:44,06-03-2026 16:39:47,3.020s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_04,Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:47,06-03-2026 16:40:09,21.287s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:48,06-03-2026 16:39:51,3.035s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:51,06-03-2026 16:39:51,0.347s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:51,06-03-2026 16:39:54,3.022s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:54,06-03-2026 16:39:55,0.510s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""081217171661"")",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:55,06-03-2026 16:39:57,2.505s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:57,06-03-2026 16:39:58,0.632s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:58,06-03-2026 16:39:59,1.054s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 16:39:59,06-03-2026 16:40:04,5.016s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:04,06-03-2026 16:40:04,0.517s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:04,06-03-2026 16:40:05,0.960s,PASSED
+"verifyTextPresent(""Phone Number tidak ditemukan"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:05,06-03-2026 16:40:06,0.507s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:06,06-03-2026 16:40:09,3.018s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_05,Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:09,06-03-2026 16:40:25,16.197s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:09,06-03-2026 16:40:12,2.887s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:12,06-03-2026 16:40:12,0.467s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:12,06-03-2026 16:40:15,3.030s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:15,06-03-2026 16:40:16,0.570s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:16,06-03-2026 16:40:18,2.287s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:18,06-03-2026 16:40:19,0.630s,PASSED
+"setText(findTestObject(""Login/input_Show password""), ""password"")",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:19,06-03-2026 16:40:20,1.061s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:20,06-03-2026 16:40:20,0.511s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:20,06-03-2026 16:40:21,1.098s,PASSED
+"verifyTextPresent(""Kata sandi salah"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:21,06-03-2026 16:40:22,0.516s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:22,06-03-2026 16:40:25,3.011s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_06,Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:25,06-03-2026 16:40:40,15.282s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:25,06-03-2026 16:40:28,3.074s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:28,06-03-2026 16:40:28,0.260s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:28,06-03-2026 16:40:31,3.012s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:31,06-03-2026 16:40:32,0.512s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:32,06-03-2026 16:40:37,5.018s,PASSED
+"verifyElementNotClickable(findTestObject(""Login/button_Masuk Akun""))",Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:37,06-03-2026 16:40:37,0.284s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 16:40:37,06-03-2026 16:40:40,3.017s,PASSED

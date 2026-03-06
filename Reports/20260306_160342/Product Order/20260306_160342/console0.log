@@ -1,0 +1,209 @@
+2026-03-06 16:03:48.807 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 16:03:48.811 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 16:03:49.800 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Product Order
+2026-03-06 16:03:49.906 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 16:03:49.907 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 16:03:49.908 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 16:03:49.909 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 16:03:49.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 16:03:49.912 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 16:03:50.123 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:03:50.124 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_01
+2026-03-06 16:03:50.781 DEBUG testcase.TC_PO_01                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:03:51.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:03:51.007 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:03:51.114 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:03:51.643 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 16:03:51.739 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:03:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:03:54.226 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4aed635c6707276ae783c245c6f48ac7
+2026-03-06 16:03:54.229 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 16:03:54.230 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:03:54.237 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:03:54.264 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:03:54.915 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:03:55.119 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:03:58.155 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:03:58.966 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "batabok719@cslua.com")
+2026-03-06 16:04:01.523 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:02.153 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:04:03.187 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:04:08.196 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:08.638 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:04:09.266 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:09.679 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:04:12.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:04:12.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:04:12.707 DEBUG testcase.TC_PO_01                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")
+2026-03-06 16:04:22.734 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-06 16:04:23.134 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to set text 'Mobile Legend' of object 'Object Repository/Product Order/input_Indonesia_cy-search-product' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Mobile Legend' of object 'Object Repository/Product Order/input_Indonesia_cy-search-product'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at TC_PO_01.run(TC_PO_01:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [4aed635c6707276ae783c245c6f48ac7, clearElement {id=f.BC8C8E9F566F61F20D89FBC832C2D6CF.d.430D09C11322BD7FFC90622A8466B0E6.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 17804, ms:edgeOptions: {debuggerAddress: localhost:56503}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56503/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:41662/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (4aed635c6707276ae783c245c6f48ac7)] -> xpath: //input[@value='']]
+Session ID: 4aed635c6707276ae783c245c6f48ac7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$LFsYGdC1.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at Script1772719210499.run(Script1772719210499.groovy:23)
+	... 13 more
+)
+2026-03-06 16:04:23.134 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Product Order/TC_PO_01 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Mobile Legend' of object 'Object Repository/Product Order/input_Indonesia_cy-search-product'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:49)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1081)
+	at TC_PO_01.run(TC_PO_01:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=145.0.3800.82)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [4aed635c6707276ae783c245c6f48ac7, clearElement {id=f.BC8C8E9F566F61F20D89FBC832C2D6CF.d.430D09C11322BD7FFC90622A8466B0E6.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.82, fedcm:accounts: true, goog:processID: 17804, ms:edgeOptions: {debuggerAddress: localhost:56503}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\X1CARB~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56503/devtoo..., se:cdpVersion: 145.0.3800.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:41662/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on windows (4aed635c6707276ae783c245c6f48ac7)] -> xpath: //input[@value='']]
+Session ID: 4aed635c6707276ae783c245c6f48ac7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$LFsYGdC1.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-03-06 16:04:23.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Product Order/TC_PO_01
+2026-03-06 16:04:23.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:04:23.150 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_02
+2026-03-06 16:04:23.245 DEBUG testcase.TC_PO_02                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:04:23.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:04:23.309 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:04:23.345 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:04:23.348 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 16:04:23.679 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 16:04:23.697 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:04:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:04:24.951 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5184774d87cf88876766961a7f81966f
+2026-03-06 16:04:24.951 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 16:04:24.952 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:04:24.954 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:04:24.956 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:04:25.639 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:04:25.782 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:04:28.792 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:04:29.229 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "batabok719@cslua.com")
+2026-03-06 16:04:31.475 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:32.027 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:04:33.132 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:04:38.145 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:38.553 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:04:39.082 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:04:39.468 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:04:42.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:04:42.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:04:42.490 DEBUG testcase.TC_PO_02                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")
+Mar 06, 2026 4:04:43 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+

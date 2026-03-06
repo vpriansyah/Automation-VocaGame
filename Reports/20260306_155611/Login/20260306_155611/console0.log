@@ -1,0 +1,187 @@
+2026-03-06 15:56:16.929 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 15:56:16.934 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 15:56:17.808 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login
+2026-03-06 15:56:17.928 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 15:56:17.931 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 15:56:17.932 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 15:56:17.934 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 15:56:17.935 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 15:56:17.937 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 15:56:18.164 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:56:18.165 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_01
+2026-03-06 15:56:18.745 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 15:56:19.316 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:56:19.410 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:56:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:56:21.979 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 926b6d76fe199bd53ea6ff1cb27ceedd
+2026-03-06 15:56:21.981 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:56:21.982 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:56:21.984 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:56:21.996 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:56:22.829 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 15:56:23.313 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 15:56:26.505 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:56:27.099 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), valid_email)
+2026-03-06 15:56:29.191 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:29.789 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:56:30.783 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 15:56:35.792 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:36.215 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:56:36.816 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:37.258 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 15:56:40.282 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_01
+2026-03-06 15:56:40.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:56:40.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_02
+2026-03-06 15:56:40.387 DEBUG testcase.TC_LOG_02                       - 1: openBrowser(url)
+2026-03-06 15:56:40.391 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:56:40.724 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:56:40.730 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:56:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:56:42.018 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 65161fc9e443b71b861b6813ae9a3b27
+2026-03-06 15:56:42.019 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:56:42.020 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:56:42.021 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:56:42.022 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:56:42.716 DEBUG testcase.TC_LOG_02                       - 2: maximizeWindow()
+2026-03-06 15:56:42.869 DEBUG testcase.TC_LOG_02                       - 3: delay(3)
+2026-03-06 15:56:45.881 DEBUG testcase.TC_LOG_02                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:56:46.334 DEBUG testcase.TC_LOG_02                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "vpriansyah@gmail.com")
+2026-03-06 15:56:48.437 DEBUG testcase.TC_LOG_02                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:48.995 DEBUG testcase.TC_LOG_02                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:56:50.012 DEBUG testcase.TC_LOG_02                       - 8: delay(5)
+2026-03-06 15:56:55.021 DEBUG testcase.TC_LOG_02                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:55.438 DEBUG testcase.TC_LOG_02                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:56:55.970 DEBUG testcase.TC_LOG_02                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:56:56.367 DEBUG testcase.TC_LOG_02                       - 11: verifyTextPresent("Kata sandi salah", false)
+2026-03-06 15:56:56.889 DEBUG testcase.TC_LOG_02                       - 12: delay(3)
+2026-03-06 15:56:59.902 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_02
+2026-03-06 15:56:59.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:56:59.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_03
+2026-03-06 15:56:59.996 DEBUG testcase.TC_LOG_03                       - 1: openBrowser(url)
+2026-03-06 15:56:59.998 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:57:00.307 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:57:00.313 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:57:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:57:01.580 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5d408ed00b9793a4e64d1510299da78e
+2026-03-06 15:57:01.581 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:57:01.581 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:57:01.582 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:57:01.583 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:57:02.240 DEBUG testcase.TC_LOG_03                       - 2: maximizeWindow()
+2026-03-06 15:57:02.357 DEBUG testcase.TC_LOG_03                       - 3: delay(3)
+2026-03-06 15:57:05.382 DEBUG testcase.TC_LOG_03                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:57:05.870 DEBUG testcase.TC_LOG_03                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "aaaaaaaa")
+2026-03-06 15:57:07.989 DEBUG testcase.TC_LOG_03                       - 6: verifyElementPresent(findTestObject("Login/p_Email harus berupa alamat email yang valid"), 3)
+2026-03-06 15:57:08.385 DEBUG testcase.TC_LOG_03                       - 7: delay(5)
+2026-03-06 15:57:13.395 DEBUG testcase.TC_LOG_03                       - 8: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:57:23.423 WARN  .k.c.w.k.b.VerifyElementClickableKeyword - Waiting for element timed out
+2026-03-06 15:57:23.440 WARN  c.k.k.core.keyword.internal.KeywordMain  - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-06 15:57:23.443 DEBUG testcase.TC_LOG_03                       - 9: verifyElementNotClickable(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:23.727 DEBUG testcase.TC_LOG_03                       - 10: delay(3)
+2026-03-06 15:57:26.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_03
+2026-03-06 15:57:26.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:57:26.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_04
+2026-03-06 15:57:26.813 DEBUG testcase.TC_LOG_04                       - 1: openBrowser(url)
+2026-03-06 15:57:26.816 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:57:27.145 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:57:27.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:57:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:57:28.404 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 38764a568e774f99dcdda3ad94a172ea
+2026-03-06 15:57:28.406 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:57:28.406 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:57:28.407 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:57:28.408 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:57:29.097 DEBUG testcase.TC_LOG_04                       - 2: maximizeWindow()
+2026-03-06 15:57:29.416 DEBUG testcase.TC_LOG_04                       - 3: delay(3)
+2026-03-06 15:57:32.442 DEBUG testcase.TC_LOG_04                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:57:32.881 DEBUG testcase.TC_LOG_04                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "081217171661")
+2026-03-06 15:57:35.489 DEBUG testcase.TC_LOG_04                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:36.172 DEBUG testcase.TC_LOG_04                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:57:37.140 DEBUG testcase.TC_LOG_04                       - 8: delay(5)
+2026-03-06 15:57:42.155 DEBUG testcase.TC_LOG_04                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:42.585 DEBUG testcase.TC_LOG_04                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:57:43.096 DEBUG testcase.TC_LOG_04                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:43.473 DEBUG testcase.TC_LOG_04                       - 11: verifyTextPresent("Phone Number tidak ditemukan", false)
+2026-03-06 15:57:44.050 DEBUG testcase.TC_LOG_04                       - 12: delay(3)
+2026-03-06 15:57:47.056 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_04
+2026-03-06 15:57:47.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:57:47.063 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_05
+2026-03-06 15:57:47.148 DEBUG testcase.TC_LOG_05                       - 1: openBrowser(url)
+2026-03-06 15:57:47.150 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:57:47.464 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:57:47.468 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:57:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:57:48.657 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 16a2050a983ceb5e1469f34cc7cfb551
+2026-03-06 15:57:48.659 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:57:48.660 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:57:48.660 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:57:48.661 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:57:49.329 DEBUG testcase.TC_LOG_05                       - 2: maximizeWindow()
+2026-03-06 15:57:49.508 DEBUG testcase.TC_LOG_05                       - 3: delay(3)
+2026-03-06 15:57:52.525 DEBUG testcase.TC_LOG_05                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:57:52.951 DEBUG testcase.TC_LOG_05                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), valid_email)
+2026-03-06 15:57:55.007 DEBUG testcase.TC_LOG_05                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:55.576 DEBUG testcase.TC_LOG_05                       - 7: setText(findTestObject("Login/input_Show password"), "password")
+2026-03-06 15:57:56.536 DEBUG testcase.TC_LOG_05                       - 8: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:56.957 DEBUG testcase.TC_LOG_05                       - 9: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:57:57.579 DEBUG testcase.TC_LOG_05                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:57:57.981 DEBUG testcase.TC_LOG_05                       - 10: verifyTextPresent("Kata sandi salah", false)
+2026-03-06 15:57:58.579 DEBUG testcase.TC_LOG_05                       - 11: delay(3)
+2026-03-06 15:58:01.589 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_05
+2026-03-06 15:58:01.593 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:58:01.593 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_06
+2026-03-06 15:58:01.652 DEBUG testcase.TC_LOG_06                       - 1: openBrowser(url)
+2026-03-06 15:58:01.655 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:58:01.993 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 15:58:01.998 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:58:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:58:03.254 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e844e5c0f467f52d8e5cd5963401bc25
+2026-03-06 15:58:03.256 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 15:58:03.257 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:58:03.258 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:58:03.258 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:58:03.800 DEBUG testcase.TC_LOG_06                       - 2: maximizeWindow()
+2026-03-06 15:58:03.958 DEBUG testcase.TC_LOG_06                       - 3: delay(3)
+2026-03-06 15:58:06.980 DEBUG testcase.TC_LOG_06                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:58:07.432 DEBUG testcase.TC_LOG_06                       - 5: delay(5)
+2026-03-06 15:58:12.444 DEBUG testcase.TC_LOG_06                       - 6: verifyElementNotClickable(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:58:12.724 DEBUG testcase.TC_LOG_06                       - 7: delay(3)
+2026-03-06 15:58:15.743 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_06
+2026-03-06 15:58:16.130 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-06 15:58:16.130 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login
+2026-03-06 15:58:16.131 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

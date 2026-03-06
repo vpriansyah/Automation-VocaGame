@@ -1,0 +1,378 @@
+2026-03-06 15:48:05.268 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 15:48:05.271 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 15:48:06.211 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login
+2026-03-06 15:48:06.334 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 15:48:06.335 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 15:48:06.337 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 15:48:06.338 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 15:48:06.339 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 15:48:06.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 15:48:06.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:48:06.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_01
+2026-03-06 15:48:07.180 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 15:48:07.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:48:07.837 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:48:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:48:10.200 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 54a3ed8474e89333ac9b33dc65ac1165
+2026-03-06 15:48:10.202 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:48:10.203 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:48:10.206 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:48:10.216 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:48:10.891 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 15:48:11.126 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 15:48:14.272 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:48:14.978 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), valid_email)
+2026-03-06 15:48:17.277 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:48:17.849 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:48:18.896 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 15:48:23.917 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:48:24.418 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:48:34.547 WARN  c.k.k.core.keyword.internal.KeywordMain  - Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_01.run(TC_LOG_01:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-06 15:48:34.559 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 15:48:37.580 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_01
+2026-03-06 15:48:37.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:48:37.599 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_02
+2026-03-06 15:48:37.731 DEBUG testcase.TC_LOG_02                       - 1: openBrowser(url)
+2026-03-06 15:48:37.735 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:48:38.146 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:48:38.151 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:48:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:48:39.232 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8c3c5fb42c07688f4a1d0f064c04e0ea
+2026-03-06 15:48:39.232 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:48:39.233 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:48:39.234 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:48:39.235 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:48:39.935 DEBUG testcase.TC_LOG_02                       - 2: maximizeWindow()
+2026-03-06 15:48:40.056 DEBUG testcase.TC_LOG_02                       - 3: delay(3)
+2026-03-06 15:48:43.083 DEBUG testcase.TC_LOG_02                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:48:43.554 DEBUG testcase.TC_LOG_02                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "vpriansyah@gmail.com")
+2026-03-06 15:48:46.018 DEBUG testcase.TC_LOG_02                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:48:46.633 DEBUG testcase.TC_LOG_02                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:48:47.705 DEBUG testcase.TC_LOG_02                       - 8: delay(5)
+2026-03-06 15:48:52.723 DEBUG testcase.TC_LOG_02                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:48:53.181 DEBUG testcase.TC_LOG_02                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:48:53.782 DEBUG testcase.TC_LOG_02                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:48:54.176 DEBUG testcase.TC_LOG_02                       - 11: verifyElementPresent(findTestObject("Login/div_Kata sandi salah. Verifikasi dan coba lagi"), 5)
+2026-03-06 15:48:59.488 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-06 15:48:59.756 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+2026-03-06 15:48:59.760 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/TC_LOG_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-03-06 15:48:59.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_02
+2026-03-06 15:48:59.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:48:59.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_03
+2026-03-06 15:48:59.842 DEBUG testcase.TC_LOG_03                       - 1: openBrowser(url)
+2026-03-06 15:48:59.844 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:49:00.168 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:49:00.173 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:49:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:49:01.159 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 362b24f0cf6f05fb00d256823bc723ca
+2026-03-06 15:49:01.160 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:49:01.161 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:49:01.162 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:49:01.165 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:49:01.681 DEBUG testcase.TC_LOG_03                       - 2: maximizeWindow()
+2026-03-06 15:49:01.851 DEBUG testcase.TC_LOG_03                       - 3: delay(3)
+2026-03-06 15:49:04.876 DEBUG testcase.TC_LOG_03                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:49:05.425 DEBUG testcase.TC_LOG_03                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "aaaaaaaa")
+2026-03-06 15:49:07.426 DEBUG testcase.TC_LOG_03                       - 6: verifyElementPresent(findTestObject("Login/p_Email harus berupa alamat email yang valid"), 3)
+2026-03-06 15:49:07.911 DEBUG testcase.TC_LOG_03                       - 7: delay(5)
+2026-03-06 15:49:12.921 DEBUG testcase.TC_LOG_03                       - 8: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:49:22.951 WARN  .k.c.w.k.b.VerifyElementClickableKeyword - Waiting for element timed out
+2026-03-06 15:49:22.956 WARN  c.k.k.core.keyword.internal.KeywordMain  - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-06 15:49:22.962 DEBUG testcase.TC_LOG_03                       - 9: verifyElementNotClickable(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:23.235 DEBUG testcase.TC_LOG_03                       - 10: delay(3)
+2026-03-06 15:49:26.245 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_03
+2026-03-06 15:49:26.249 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:49:26.249 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_04
+2026-03-06 15:49:26.330 DEBUG testcase.TC_LOG_04                       - 1: openBrowser(url)
+2026-03-06 15:49:26.332 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:49:26.619 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:49:26.622 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:49:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:49:27.541 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d791f659447087e35dd4175454effde4
+2026-03-06 15:49:27.542 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:49:27.542 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:49:27.543 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:49:27.543 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:49:28.237 DEBUG testcase.TC_LOG_04                       - 2: maximizeWindow()
+2026-03-06 15:49:28.369 DEBUG testcase.TC_LOG_04                       - 3: delay(3)
+2026-03-06 15:49:31.384 DEBUG testcase.TC_LOG_04                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:49:31.819 DEBUG testcase.TC_LOG_04                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "081217171661")
+2026-03-06 15:49:34.038 DEBUG testcase.TC_LOG_04                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:34.724 DEBUG testcase.TC_LOG_04                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 15:49:35.679 DEBUG testcase.TC_LOG_04                       - 8: delay(5)
+2026-03-06 15:49:40.688 DEBUG testcase.TC_LOG_04                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:41.127 DEBUG testcase.TC_LOG_04                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:49:41.763 DEBUG testcase.TC_LOG_04                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:42.142 DEBUG testcase.TC_LOG_04                       - 11: verifyTextPresent("Phone Number tidak ditemukan", false)
+2026-03-06 15:49:42.833 DEBUG testcase.TC_LOG_04                       - 12: delay(3)
+2026-03-06 15:49:45.842 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_04
+2026-03-06 15:49:45.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:49:45.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_05
+2026-03-06 15:49:45.946 DEBUG testcase.TC_LOG_05                       - 1: openBrowser(url)
+2026-03-06 15:49:45.949 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:49:46.344 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:49:46.351 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:49:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:49:47.261 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a140c0f113595d02b3b32858ab62cc19
+2026-03-06 15:49:47.262 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:49:47.262 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:49:47.263 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:49:47.263 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:49:47.872 DEBUG testcase.TC_LOG_05                       - 2: maximizeWindow()
+2026-03-06 15:49:48.088 DEBUG testcase.TC_LOG_05                       - 3: delay(3)
+2026-03-06 15:49:51.116 DEBUG testcase.TC_LOG_05                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:49:51.711 DEBUG testcase.TC_LOG_05                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), valid_email)
+2026-03-06 15:49:53.775 DEBUG testcase.TC_LOG_05                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:54.435 DEBUG testcase.TC_LOG_05                       - 7: setText(findTestObject("Login/input_Show password"), "password")
+2026-03-06 15:49:55.368 DEBUG testcase.TC_LOG_05                       - 8: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:55.769 DEBUG testcase.TC_LOG_05                       - 9: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 15:49:56.290 DEBUG testcase.TC_LOG_05                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:49:56.702 DEBUG testcase.TC_LOG_05                       - 10: verifyTextPresent("Kata sandi salah", false)
+2026-03-06 15:49:57.186 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Kata sandi salah' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-06 15:49:57.447 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Kata sandi salah' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+2026-03-06 15:49:57.449 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/TC_LOG_05 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+2026-03-06 15:49:57.454 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_05
+2026-03-06 15:49:57.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 15:49:57.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/TC_LOG_06
+2026-03-06 15:49:57.541 DEBUG testcase.TC_LOG_06                       - 1: openBrowser(url)
+2026-03-06 15:49:57.543 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 15:49:57.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 15:49:57.812 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 3:49:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 15:49:58.693 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 545f080c705e32c3e908863c025c5502
+2026-03-06 15:49:58.693 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 15:49:58.694 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 15:49:58.695 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 15:49:58.695 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 15:49:59.302 DEBUG testcase.TC_LOG_06                       - 2: maximizeWindow()
+2026-03-06 15:49:59.419 DEBUG testcase.TC_LOG_06                       - 3: delay(3)
+2026-03-06 15:50:02.437 DEBUG testcase.TC_LOG_06                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 15:50:02.844 DEBUG testcase.TC_LOG_06                       - 5: delay(5)
+2026-03-06 15:50:07.861 DEBUG testcase.TC_LOG_06                       - 6: verifyElementNotClickable(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 15:50:08.122 DEBUG testcase.TC_LOG_06                       - 7: delay(3)
+2026-03-06 15:50:11.134 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/TC_LOG_06
+2026-03-06 15:50:11.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-06 15:50:11.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login
+2026-03-06 15:50:11.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Forgot Password" time="135.84" tests="4" failures="0" errors="0">
+   <testsuite name="Forgot Password" tests="4" failures="0" errors="0" time="135.84" skipped="0" timestamp="2026-03-06T15:25:29.733Z" hostname="x1 carbon - DESKTOP-72PBSPN" id="Test Suites/Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_222459\\Forgot Password\\20260306_222459"/>
+         <property name="logFiles" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_222459\\Forgot Password\\20260306_222459\\console0.log, D:\\VocaGame\\VocaGame\\Reports\\20260306_222459\\Forgot Password\\20260306_222459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="x1 carbon - DESKTOP-72PBSPN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 145.0.7632.160"/>
+         <property name="userFullName" value="Devanz"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="869674b0c6476dce281f931376964823"/>
+         <property name="projectName" value="VocaGame"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Forgot Password/TC_FP_01" time="49.71" classname="Test Cases/Forgot Password/TC_FP_01" status="PASSED">
+         <system-out><![CDATA[06-03-2026T22:25:30 - [TEST_CASE][PASSED] - Test Cases/Forgot Password/TC_FP_01: Test Cases/Forgot Password/TC_FP_01
+
+06-03-2026T22:25:30 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:25:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T22:25:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T22:25:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:25:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T22:25:37 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T22:25:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+06-03-2026T22:25:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+06-03-2026T22:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Masuk")): Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:25:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:25:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:25:49 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/p_Lupa Password")): Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:25:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T22:25:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T22:25:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Forgot Password/input__Nomor whatsapp atau Email"), valid_email): Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:25:57 - [MESSAGE][PASSED] - Keys 'deyantraa@gmail.com' sent to object: 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:25:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T22:26:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T22:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Kirim Kode OTP")): Object: 'Object Repository/Forgot Password/button_Kirim Kode OTP' is clicked on
+
+06-03-2026T22:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Kirim Kode OTP' is clicked on
+
+06-03-2026T22:26:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:26:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com")): Object: 'Object Repository/Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com' is clicked on
+
+06-03-2026T22:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com' is clicked on
+
+06-03-2026T22:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Lanjutkan")): Object: 'Object Repository/Forgot Password/button_Lanjutkan' is clicked on
+
+06-03-2026T22:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Lanjutkan' is clicked on
+
+06-03-2026T22:26:03 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+06-03-2026T22:26:10 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+06-03-2026T22:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Verifikasi OTP")): Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T22:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T22:26:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T22:26:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T22:26:14 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Password/input__Password Baru"), password): Text 'Password@1' is set on object 'Object Repository/Forgot Password/input__Password Baru'
+
+06-03-2026T22:26:15 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Forgot Password/input__Password Baru'
+
+06-03-2026T22:26:15 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Password/input__Konfirmasi Password Baru"), password): Text 'Password@1' is set on object 'Object Repository/Forgot Password/input__Konfirmasi Password Baru'
+
+06-03-2026T22:26:16 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Forgot Password/input__Konfirmasi Password Baru'
+
+06-03-2026T22:26:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T22:26:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T22:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Reset Password")): Object: 'Object Repository/Forgot Password/button_Reset Password' is clicked on
+
+06-03-2026T22:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Reset Password' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot Password/TC_FP_02" time="27.054" classname="Test Cases/Forgot Password/TC_FP_02" status="PASSED">
+         <system-out><![CDATA[06-03-2026T22:26:19 - [TEST_CASE][PASSED] - Test Cases/Forgot Password/TC_FP_02: Test Cases/Forgot Password/TC_FP_02
+
+06-03-2026T22:26:19 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:26:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T22:26:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T22:26:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T22:26:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:26:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T22:26:23 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T22:26:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+06-03-2026T22:26:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+06-03-2026T22:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Masuk")): Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:26:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T22:26:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T22:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/p_Lupa Password")): Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:26:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T22:26:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T22:26:43 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot Password/input__Nomor whatsapp atau Email"), "aaaaa"): Text 'aaaaa' is set on object 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:26:44 - [MESSAGE][PASSED] - Text 'aaaaa' is set on object 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:26:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T22:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T22:26:46 - [TEST_STEP][PASSED] - verifyTextPresent("Email harus berupa alamat email yang valid", false): Text 'Email harus berupa alamat email yang valid' is present on page 
+
+06-03-2026T22:26:46 - [MESSAGE][PASSED] - Text 'Email harus berupa alamat email yang valid' is present on page 
+
+06-03-2026T22:26:46 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Forgot Password/button_Kirim Kode OTP")): Object 'Object Repository/Forgot Password/button_Kirim Kode OTP' is NOT clickable
+
+06-03-2026T22:26:46 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/button_Kirim Kode OTP' is NOT clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot Password/TC_FP_03" time="18.05" classname="Test Cases/Forgot Password/TC_FP_03" status="PASSED">
+         <system-out><![CDATA[06-03-2026T22:26:46 - [TEST_CASE][PASSED] - Test Cases/Forgot Password/TC_FP_03: Test Cases/Forgot Password/TC_FP_03
+
+06-03-2026T22:26:47 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:26:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T22:26:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T22:26:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T22:26:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:26:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T22:26:50 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T22:26:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+06-03-2026T22:27:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+06-03-2026T22:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T22:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T22:27:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:27:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:27:02 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/p_Lupa Password")): Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:27:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:27:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:27:04 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Forgot Password/button_Kirim Kode OTP")): Object 'Object Repository/Forgot Password/button_Kirim Kode OTP' is NOT clickable
+
+06-03-2026T22:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/button_Kirim Kode OTP' is NOT clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot Password/TC_FP_04" time="40.589" classname="Test Cases/Forgot Password/TC_FP_04" status="PASSED">
+         <system-out><![CDATA[06-03-2026T22:27:04 - [TEST_CASE][PASSED] - Test Cases/Forgot Password/TC_FP_04: Test Cases/Forgot Password/TC_FP_04
+
+06-03-2026T22:27:05 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:27:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T22:27:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T22:27:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T22:27:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T22:27:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T22:27:09 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T22:27:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+06-03-2026T22:27:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+06-03-2026T22:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Masuk")): Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Masuk' is clicked on
+
+06-03-2026T22:27:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:27:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:27:21 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/p_Lupa Password")): Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/p_Lupa Password' is clicked on
+
+06-03-2026T22:27:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+06-03-2026T22:27:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+06-03-2026T22:27:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Forgot Password/input__Nomor whatsapp atau Email"), "hyduziqo@fxzig.com"): Keys 'hyduziqo@fxzig.com' sent to object: 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:27:28 - [MESSAGE][PASSED] - Keys 'hyduziqo@fxzig.com' sent to object: 'Object Repository/Forgot Password/input__Nomor whatsapp atau Email'
+
+06-03-2026T22:27:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T22:27:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T22:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Kirim Kode OTP")): Object: 'Object Repository/Forgot Password/button_Kirim Kode OTP' is clicked on
+
+06-03-2026T22:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Kirim Kode OTP' is clicked on
+
+06-03-2026T22:27:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+06-03-2026T22:27:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+06-03-2026T22:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com")): Object: 'Object Repository/Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com' is clicked on
+
+06-03-2026T22:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com' is clicked on
+
+06-03-2026T22:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Forgot Password/button_Lanjutkan")): Object: 'Object Repository/Forgot Password/button_Lanjutkan' is clicked on
+
+06-03-2026T22:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/button_Lanjutkan' is clicked on
+
+06-03-2026T22:27:34 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+06-03-2026T22:27:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+06-03-2026T22:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Verifikasi OTP")): Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T22:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Verifikasi OTP' is clicked on
+
+06-03-2026T22:27:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T22:27:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T22:27:45 - [TEST_STEP][PASSED] - verifyTextPresent("OTP salah. Silakan cek dan masukkan kembali.", false): Text 'OTP salah. Silakan cek dan masukkan kembali.' is present on page 
+
+06-03-2026T22:27:45 - [MESSAGE][PASSED] - Text 'OTP salah. Silakan cek dan masukkan kembali.' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2026T22:25:29 - [TEST_SUITE][PASSED] - Forgot Password: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

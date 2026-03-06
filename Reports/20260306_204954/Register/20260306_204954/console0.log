@@ -1,0 +1,59 @@
+2026-03-06 20:50:02.300 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 20:50:02.303 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 20:50:03.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Register
+2026-03-06 20:50:03.927 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 20:50:03.933 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 20:50:03.935 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 20:50:03.936 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 20:50:03.940 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 20:50:03.942 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 20:50:04.326 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 20:50:04.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register/TC_REG_01
+2026-03-06 20:50:05.234 DEBUG testcase.TC_REG_01                       - 1: openBrowser(url)
+2026-03-06 20:50:06.075 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 20:50:06.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 8:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 20:50:10.083 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a6a5741fe34332f9c824679b9e4bbd19
+2026-03-06 20:50:10.086 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 20:50:10.090 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 20:50:10.091 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 20:50:10.114 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 20:50:10.479 DEBUG testcase.TC_REG_01                       - 2: maximizeWindow()
+2026-03-06 20:50:11.376 DEBUG testcase.TC_REG_01                       - 3: delay(3)
+2026-03-06 20:50:14.485 DEBUG testcase.TC_REG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 20:50:15.285 DEBUG testcase.TC_REG_01                       - 5: click(findTestObject("Register/span_Daftar Sekarang"))
+2026-03-06 20:50:17.314 DEBUG testcase.TC_REG_01                       - 6: delay(5)
+2026-03-06 20:50:22.339 DEBUG testcase.TC_REG_01                       - 7: setText(findTestObject("Register/input__Nama Depan"), "Devan")
+2026-03-06 20:50:23.506 DEBUG testcase.TC_REG_01                       - 8: setText(findTestObject("Register/input__Nama Belakang"), "Putra")
+2026-03-06 20:50:24.489 DEBUG testcase.TC_REG_01                       - 9: rand = new java.util.Random()
+2026-03-06 20:50:24.503 DEBUG testcase.TC_REG_01                       - 10: phoneNumber = "08" + 100000000 + rand.nextInt(900000000)
+2026-03-06 20:50:24.526 DEBUG testcase.TC_REG_01                       - 11: setText(findTestObject("Register/input_Whatsapp"), phoneNumber)
+2026-03-06 20:50:25.610 DEBUG testcase.TC_REG_01                       - 12: setText(findTestObject("Register/input_Email"), "nuviqazu@forexzig.com")
+2026-03-06 20:50:26.783 DEBUG testcase.TC_REG_01                       - 13: setText(findTestObject("Register/input__Password"), password)
+2026-03-06 20:50:27.726 DEBUG testcase.TC_REG_01                       - 14: setText(findTestObject("Register/input__Konfirmasi Password"), password)
+2026-03-06 20:50:28.911 DEBUG testcase.TC_REG_01                       - 15: click(findTestObject("Register/Checklist TnC"))
+2026-03-06 20:50:29.351 DEBUG testcase.TC_REG_01                       - 16: click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL)
+2026-03-06 20:50:30.068 DEBUG testcase.TC_REG_01                       - 17: delay(1)
+2026-03-06 20:50:31.097 DEBUG testcase.TC_REG_01                       - 18: click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL)
+2026-03-06 20:50:31.564 DEBUG testcase.TC_REG_01                       - 19: delay(1)
+2026-03-06 20:50:32.584 DEBUG testcase.TC_REG_01                       - 20: click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL)
+Mar 06, 2026 8:50:39 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+

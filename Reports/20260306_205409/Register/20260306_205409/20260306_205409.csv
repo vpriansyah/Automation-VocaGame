@@ -1,0 +1,167 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:19,06-03-2026 20:58:29,4m - 10.470s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_01,Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:19,06-03-2026 20:55:34,1m - 14.347s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:21,06-03-2026 20:54:27,6.646s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:27,06-03-2026 20:54:28,0.594s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:28,06-03-2026 20:54:31,3.294s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:31,06-03-2026 20:54:33,1.503s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:33,06-03-2026 20:54:35,1.980s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:35,06-03-2026 20:54:40,5.024s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:40,06-03-2026 20:54:41,1.132s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:41,06-03-2026 20:54:42,1.069s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:42,06-03-2026 20:54:42,0.019s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:42,06-03-2026 20:54:42,0.019s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:42,06-03-2026 20:54:43,1.151s,PASSED
+"setText(findTestObject(""Register/input_Email""), ""hyduziqo@fxzig.com"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:43,06-03-2026 20:54:44,1.249s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:44,06-03-2026 20:54:45,1.045s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:45,06-03-2026 20:54:47,1.247s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:47,06-03-2026 20:54:47,0.446s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:47,06-03-2026 20:54:48,0.642s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:48,06-03-2026 20:54:49,1.032s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:54:49,06-03-2026 20:55:00,11.138s,WARNING
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:00,06-03-2026 20:55:01,1.012s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:01,06-03-2026 20:55:12,11.114s,WARNING
+"click(findTestObject(""Register/li_Kirim OTP via Emailh1jtwdollicons.com""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:12,06-03-2026 20:55:12,0.470s,PASSED
+"click(findTestObject(""Register/button_Lanjutkan""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:12,06-03-2026 20:55:13,0.645s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:13,06-03-2026 20:55:14,1.019s,PASSED
+"click(findTestObject(""Register/button_Lanjutkan""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:14,06-03-2026 20:55:24,10.073s,WARNING
+delay(7),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:24,06-03-2026 20:55:31,7.021s,PASSED
+"click(findTestObject(""Register/button_Verifikasi OTP""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:31,06-03-2026 20:55:32,0.553s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:32,06-03-2026 20:55:34,2.010s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_02,Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:34,06-03-2026 20:56:01,27.469s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:34,06-03-2026 20:55:38,4.127s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:38,06-03-2026 20:55:38,0.321s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:38,06-03-2026 20:55:44,5.168s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:44,06-03-2026 20:55:44,0.522s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:44,06-03-2026 20:55:46,2.121s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:46,06-03-2026 20:55:49,3.040s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""a"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:49,06-03-2026 20:55:50,0.914s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""a"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:50,06-03-2026 20:55:51,1.188s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:51,06-03-2026 20:55:54,3.012s,PASSED
+"verifyTextPresent(""Nama depan harus terdiri dari setidaknya 2 karakter."", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:54,06-03-2026 20:55:55,0.366s,PASSED
+"verifyTextPresent(""Nama belakang harus terdiri dari setidaknya 2 karakter."", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:55,06-03-2026 20:55:55,0.301s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:55,06-03-2026 20:55:55,0.314s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:55,06-03-2026 20:55:56,0.594s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:55:56,06-03-2026 20:56:01,5.020s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:01,06-03-2026 20:56:01,0.298s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_03,Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:01,06-03-2026 20:56:24,22.468s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:01,06-03-2026 20:56:06,4.333s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:06,06-03-2026 20:56:06,0.471s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:06,06-03-2026 20:56:11,5.067s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:11,06-03-2026 20:56:12,0.550s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:12,06-03-2026 20:56:14,2.062s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:14,06-03-2026 20:56:17,3.009s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:17,06-03-2026 20:56:18,1.049s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:18,06-03-2026 20:56:19,1.128s,PASSED
+"setText(findTestObject(""Register/input_Email""), ""aaaaa"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:19,06-03-2026 20:56:20,1.024s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:20,06-03-2026 20:56:21,1.014s,PASSED
+"verifyElementText(findTestObject(""Register/p_Harap masukkan alamat email yang valid""), ""Harap masukkan alamat email yang valid."")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:21,06-03-2026 20:56:21,0.341s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:21,06-03-2026 20:56:22,0.289s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:22,06-03-2026 20:56:22,0.442s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:22,06-03-2026 20:56:23,0.496s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:23,06-03-2026 20:56:24,1.012s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_04,Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:24,06-03-2026 20:56:49,25.084s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:24,06-03-2026 20:56:27,3.607s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:27,06-03-2026 20:56:28,0.399s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:28,06-03-2026 20:56:33,5.036s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:33,06-03-2026 20:56:33,0.520s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:33,06-03-2026 20:56:35,1.864s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:35,06-03-2026 20:56:38,3.015s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:38,06-03-2026 20:56:39,0.987s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:39,06-03-2026 20:56:40,1.175s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:40,06-03-2026 20:56:40,0.002s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:40,06-03-2026 20:56:40,0.008s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:40,06-03-2026 20:56:42,1.201s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:42,06-03-2026 20:56:43,0.838s,PASSED
+"setText(findTestObject(""Register/input__Password""), ""password@1"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:43,06-03-2026 20:56:44,0.998s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:44,06-03-2026 20:56:46,2.021s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:46,06-03-2026 20:56:46,0.272s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:46,06-03-2026 20:56:46,0.468s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:46,06-03-2026 20:56:47,0.500s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:47,06-03-2026 20:56:49,2.012s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_05,Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:49,06-03-2026 20:57:14,24.935s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:49,06-03-2026 20:56:53,3.849s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:53,06-03-2026 20:56:53,0.248s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:53,06-03-2026 20:56:58,5.022s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:58,06-03-2026 20:56:59,0.582s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:56:59,06-03-2026 20:57:01,1.892s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:01,06-03-2026 20:57:04,3.022s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:04,06-03-2026 20:57:05,0.968s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:05,06-03-2026 20:57:06,1.057s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:06,06-03-2026 20:57:06,0.005s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:06,06-03-2026 20:57:06,0.002s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:06,06-03-2026 20:57:07,1.201s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:07,06-03-2026 20:57:08,0.732s,PASSED
+"setText(findTestObject(""Register/input__Password""), ""Password1"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:08,06-03-2026 20:57:08,0.950s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:08,06-03-2026 20:57:10,2.004s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:10,06-03-2026 20:57:11,0.268s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:11,06-03-2026 20:57:11,0.470s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:11,06-03-2026 20:57:12,0.494s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:12,06-03-2026 20:57:14,2.005s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_06,Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:14,06-03-2026 20:57:38,24.487s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:14,06-03-2026 20:57:17,3.606s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:17,06-03-2026 20:57:18,0.232s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:18,06-03-2026 20:57:23,5.013s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:23,06-03-2026 20:57:23,0.535s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:23,06-03-2026 20:57:25,2.050s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:25,06-03-2026 20:57:28,3.034s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:28,06-03-2026 20:57:29,1.033s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:29,06-03-2026 20:57:31,1.159s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:31,06-03-2026 20:57:31,0.003s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:31,06-03-2026 20:57:31,0.006s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:31,06-03-2026 20:57:32,1.201s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:32,06-03-2026 20:57:33,0.795s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:33,06-03-2026 20:57:34,1.020s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), ""Password"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:34,06-03-2026 20:57:35,1.236s,PASSED
+"verifyElementText(findTestObject(""Register/p_Konfirmasi kata sandi tidak cocok""), ""Konfirmasi kata sandi tidak cocok."")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:35,06-03-2026 20:57:35,0.397s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:35,06-03-2026 20:57:36,0.484s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:36,06-03-2026 20:57:36,0.506s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:36,06-03-2026 20:57:38,2.017s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_07,Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:38,06-03-2026 20:58:01,22.343s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:38,06-03-2026 20:57:42,3.538s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:42,06-03-2026 20:57:42,0.332s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:42,06-03-2026 20:57:47,5.021s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:47,06-03-2026 20:57:48,0.555s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:48,06-03-2026 20:57:50,2.088s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:50,06-03-2026 20:57:53,3.011s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:53,06-03-2026 20:57:54,1.035s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:54,06-03-2026 20:57:55,1.093s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:55,06-03-2026 20:57:55,0.004s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:55,06-03-2026 20:57:55,0.002s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:55,06-03-2026 20:57:56,1.219s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:56,06-03-2026 20:57:57,0.800s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:57,06-03-2026 20:57:58,1.002s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:58,06-03-2026 20:57:59,1.198s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:57:59,06-03-2026 20:58:00,0.297s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:00,06-03-2026 20:58:01,1.014s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_08,Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:01,06-03-2026 20:58:29,28.326s,PASSED
+openBrowser(url),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:01,06-03-2026 20:58:04,3.654s,PASSED
+maximizeWindow(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:04,06-03-2026 20:58:05,0.283s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:05,06-03-2026 20:58:10,5.017s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:10,06-03-2026 20:58:10,0.503s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:10,06-03-2026 20:58:12,1.902s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:12,06-03-2026 20:58:15,3.018s,PASSED
+"setText(findTestObject(""Register/input__Nama Depan""), ""Devan"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:15,06-03-2026 20:58:16,0.963s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:16,06-03-2026 20:58:17,1.029s,PASSED
+rand = new java.util.Random(),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:17,06-03-2026 20:58:17,0.002s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:17,06-03-2026 20:58:17,0.003s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:17,06-03-2026 20:58:18,1.165s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:18,06-03-2026 20:58:19,0.718s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:19,06-03-2026 20:58:20,0.947s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), password)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:20,06-03-2026 20:58:21,1.175s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:21,06-03-2026 20:58:22,0.460s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:22,06-03-2026 20:58:22,0.733s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:22,06-03-2026 20:58:24,2.011s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:24,06-03-2026 20:58:25,0.473s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:25,06-03-2026 20:58:27,2.020s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:27,06-03-2026 20:58:27,0.468s,PASSED
+"verifyTextPresent(""User sudah terdaftar. Silahkan coba menggunakan email atau nomor handphone lain"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:27,06-03-2026 20:58:28,0.570s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 20:58:28,06-03-2026 20:58:29,1.007s,PASSED

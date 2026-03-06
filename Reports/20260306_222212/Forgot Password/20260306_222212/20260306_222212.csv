@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forgot Password,Chrome 145.0.7632.160,,,06-03-2026 22:22:21,06-03-2026 22:24:16,1m - 55.178s,FAILED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_01,Chrome 145.0.7632.160,,,06-03-2026 22:22:22,06-03-2026 22:23:10,48.210s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 22:22:22,06-03-2026 22:22:29,6.152s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 22:22:29,06-03-2026 22:22:29,0.267s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 22:22:29,06-03-2026 22:22:36,7.134s,PASSED
+"click(findTestObject(""Forgot Password/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:36,06-03-2026 22:22:37,0.821s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 22:22:37,06-03-2026 22:22:38,1.033s,PASSED
+"click(findTestObject(""Forgot Password/p_Lupa Password""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:38,06-03-2026 22:22:42,3.702s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 22:22:42,06-03-2026 22:22:44,2.025s,PASSED
+"sendKeys(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""), valid_email)",Chrome 145.0.7632.160,,,06-03-2026 22:22:44,06-03-2026 22:22:44,0.674s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 22:22:44,06-03-2026 22:22:47,3.015s,PASSED
+"click(findTestObject(""Forgot Password/button_Kirim Kode OTP""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:47,06-03-2026 22:22:48,0.661s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 22:22:48,06-03-2026 22:22:49,1.028s,PASSED
+"click(findTestObject(""Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:49,06-03-2026 22:22:50,0.995s,PASSED
+"click(findTestObject(""Forgot Password/button_Lanjutkan""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:50,06-03-2026 22:22:51,0.623s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 22:22:51,06-03-2026 22:22:58,7.020s,PASSED
+"click(findTestObject(""Register/button_Verifikasi OTP""))",Chrome 145.0.7632.160,,,06-03-2026 22:22:58,06-03-2026 22:23:02,4.450s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 22:23:02,06-03-2026 22:23:04,2.019s,PASSED
+"setText(findTestObject(""Forgot Password/input__Password Baru""), password)",Chrome 145.0.7632.160,,,06-03-2026 22:23:04,06-03-2026 22:23:05,1.196s,PASSED
+"setText(findTestObject(""Forgot Password/input__Konfirmasi Password Baru""), password)",Chrome 145.0.7632.160,,,06-03-2026 22:23:05,06-03-2026 22:23:06,1.058s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 22:23:06,06-03-2026 22:23:09,3.017s,PASSED
+"click(findTestObject(""Forgot Password/button_Reset Password""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:09,06-03-2026 22:23:10,0.473s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_02,Chrome 145.0.7632.160,,,06-03-2026 22:23:10,06-03-2026 22:23:31,20.653s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 22:23:10,06-03-2026 22:23:12,2.490s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 22:23:12,06-03-2026 22:23:13,0.717s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 22:23:13,06-03-2026 22:23:20,7.022s,PASSED
+"click(findTestObject(""Forgot Password/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:20,06-03-2026 22:23:21,0.469s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 22:23:21,06-03-2026 22:23:23,2.012s,PASSED
+"click(findTestObject(""Forgot Password/p_Lupa Password""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:23,06-03-2026 22:23:24,1.260s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 22:23:24,06-03-2026 22:23:27,3.010s,PASSED
+"setText(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""), ""aaaaa"")",Chrome 145.0.7632.160,,,06-03-2026 22:23:27,06-03-2026 22:23:28,0.850s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 22:23:28,06-03-2026 22:23:30,2.017s,PASSED
+"verifyTextPresent(""Email harus berupa alamat email yang valid"", false)",Chrome 145.0.7632.160,,,06-03-2026 22:23:30,06-03-2026 22:23:30,0.369s,PASSED
+"verifyElementNotClickable(findTestObject(""Forgot Password/button_Kirim Kode OTP""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:30,06-03-2026 22:23:31,0.308s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_03,Chrome 145.0.7632.160,,,06-03-2026 22:23:31,06-03-2026 22:23:46,15.616s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 22:23:31,06-03-2026 22:23:34,2.837s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 22:23:34,06-03-2026 22:23:34,0.185s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 22:23:34,06-03-2026 22:23:41,7.025s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:41,06-03-2026 22:23:41,0.505s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 22:23:41,06-03-2026 22:23:42,1.023s,PASSED
+"click(findTestObject(""Forgot Password/p_Lupa Password""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:42,06-03-2026 22:23:44,2.184s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 22:23:44,06-03-2026 22:23:45,1.023s,PASSED
+"verifyElementNotClickable(findTestObject(""Forgot Password/button_Kirim Kode OTP""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:45,06-03-2026 22:23:46,0.709s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_04,Chrome 145.0.7632.160,,,06-03-2026 22:23:46,06-03-2026 22:24:16,30.156s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 22:23:46,06-03-2026 22:23:50,3.148s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 22:23:50,06-03-2026 22:23:50,0.100s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 22:23:50,06-03-2026 22:23:57,7.010s,PASSED
+"click(findTestObject(""Forgot Password/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:57,06-03-2026 22:23:57,0.437s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 22:23:57,06-03-2026 22:23:58,1.018s,PASSED
+"click(findTestObject(""Forgot Password/p_Lupa Password""))",Chrome 145.0.7632.160,,,06-03-2026 22:23:58,06-03-2026 22:24:04,6.061s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 22:24:04,06-03-2026 22:24:06,2.021s,PASSED
+"sendKeys(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""), ""hyduziqo@fxzig.com"")",Chrome 145.0.7632.160,,,06-03-2026 22:24:06,06-03-2026 22:24:16,10.073s,FAILED

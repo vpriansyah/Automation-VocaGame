@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="127.688" tests="6" failures="0" errors="0">
+   <testsuite name="Login" tests="6" failures="0" errors="0" time="127.688" skipped="0" timestamp="2026-03-06T09:38:33.078Z" hostname="x1 carbon - DESKTOP-72PBSPN" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_163823\\Login\\20260306_163823"/>
+         <property name="logFiles" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_163823\\Login\\20260306_163823\\console0.log, D:\\VocaGame\\VocaGame\\Reports\\20260306_163823\\Login\\20260306_163823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="x1 carbon - DESKTOP-72PBSPN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Edge Chromium 145.0.3800.82"/>
+         <property name="userFullName" value="Devanz"/>
+         <property name="hostAddress" value="172.16.100.143"/>
+         <property name="sessionId" value="aab1e2b0dbd69454998257dda2e2ec99"/>
+         <property name="projectName" value="VocaGame"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_LOG_01" time="24.962" classname="Test Cases/Login/TC_LOG_01" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:38:33 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_01: Test Cases/Login/TC_LOG_01
+
+06-03-2026T16:38:34 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:38:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:38:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:38:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:38:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:38:40 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:38:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:38:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), valid_email): Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:38:47 - [MESSAGE][PASSED] - Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:38:48 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:38:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T16:38:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T16:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:38:54 - [TEST_STEP][WARNING] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_01.run(TC_LOG_01:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T16:38:55 - [MESSAGE][WARNING] - Element is detached from the DOM while waiting interactable
+
+06-03-2026T16:38:55 - [MESSAGE][WARNING] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_01.run(TC_LOG_01:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T16:38:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:38:58 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_02" time="21.321" classname="Test Cases/Login/TC_LOG_02" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:38:58 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_02: Test Cases/Login/TC_LOG_02
+
+06-03-2026T16:38:58 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:38:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T16:38:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:38:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:39:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:39:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:39:01 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:39:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:39:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "vpriansyah@gmail.com"): Text 'vpriansyah@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:07 - [MESSAGE][PASSED] - Text 'vpriansyah@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:39:09 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:39:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T16:39:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T16:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:15 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T16:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T16:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:16 - [TEST_STEP][PASSED] - verifyTextPresent("Kata sandi salah", false): Text 'Kata sandi salah' is present on page 
+
+06-03-2026T16:39:16 - [MESSAGE][PASSED] - Text 'Kata sandi salah' is present on page 
+
+06-03-2026T16:39:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:39:19 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_03" time="28.19" classname="Test Cases/Login/TC_LOG_03" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:39:19 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_03: Test Cases/Login/TC_LOG_03
+
+06-03-2026T16:39:19 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:39:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T16:39:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:39:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:39:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:39:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:39:23 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:39:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:39:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "aaaaaaaa"): Text 'aaaaaaaa' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:29 - [MESSAGE][PASSED] - Text 'aaaaaaaa' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/p_Email harus berupa alamat email yang valid"), 3): Object 'Object Repository/Login/p_Email harus berupa alamat email yang valid' is present
+
+06-03-2026T16:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/p_Email harus berupa alamat email yang valid' is present
+
+06-03-2026T16:39:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T16:39:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T16:39:34 - [TEST_STEP][WARNING] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T16:39:44 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-03-2026T16:39:44 - [MESSAGE][WARNING] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T16:39:44 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login/button_Masuk Akun")): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T16:39:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T16:39:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:39:47 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_04" time="21.287" classname="Test Cases/Login/TC_LOG_04" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:39:47 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_04: Test Cases/Login/TC_LOG_04
+
+06-03-2026T16:39:48 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:39:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T16:39:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:39:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:39:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:39:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:39:51 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:39:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:39:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:39:54 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "081217171661"): Text '081217171661' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:57 - [MESSAGE][PASSED] - Text '081217171661' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:39:59 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:39:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T16:40:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T16:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:04 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T16:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T16:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:05 - [TEST_STEP][PASSED] - verifyTextPresent("Phone Number tidak ditemukan", false): Text 'Phone Number tidak ditemukan' is present on page 
+
+06-03-2026T16:40:06 - [MESSAGE][PASSED] - Text 'Phone Number tidak ditemukan' is present on page 
+
+06-03-2026T16:40:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:40:09 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_05" time="16.197" classname="Test Cases/Login/TC_LOG_05" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:40:09 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_05: Test Cases/Login/TC_LOG_05
+
+06-03-2026T16:40:09 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:40:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T16:40:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:40:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:40:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:40:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:40:12 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:40:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:40:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), valid_email): Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:40:18 - [MESSAGE][PASSED] - Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T16:40:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), "password"): Text 'password' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:40:20 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T16:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:20 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T16:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T16:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T16:40:21 - [TEST_STEP][PASSED] - verifyTextPresent("Kata sandi salah", false): Text 'Kata sandi salah' is present on page 
+
+06-03-2026T16:40:22 - [MESSAGE][PASSED] - Text 'Kata sandi salah' is present on page 
+
+06-03-2026T16:40:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:40:25 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_06" time="15.282" classname="Test Cases/Login/TC_LOG_06" status="PASSED">
+         <system-out><![CDATA[06-03-2026T16:40:25 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_06: Test Cases/Login/TC_LOG_06
+
+06-03-2026T16:40:25 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:40:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T16:40:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+06-03-2026T16:40:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T16:40:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T16:40:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T16:40:28 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T16:40:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:40:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T16:40:31 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T16:40:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T16:40:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T16:40:37 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login/button_Masuk Akun")): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T16:40:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T16:40:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T16:40:40 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2026T16:38:33 - [TEST_SUITE][PASSED] - Login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

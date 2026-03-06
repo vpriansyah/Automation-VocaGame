@@ -1,0 +1,272 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration Testing VocaGame,Chrome 145.0.7632.160,,,06-03-2026 14:22:39,06-03-2026 14:35:20,12m - 40.676s,FAILED
+,,,,,,,
+Test Cases/Register/TC_REG_01,Chrome 145.0.7632.160,,,06-03-2026 14:22:40,06-03-2026 14:23:55,1m - 14.929s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:22:41,06-03-2026 14:22:46,5.531s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:22:46,06-03-2026 14:22:46,0.113s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:22:46,06-03-2026 14:22:49,3.091s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:22:49,06-03-2026 14:22:50,0.743s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:22:50,06-03-2026 14:22:53,3.186s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:22:53,06-03-2026 14:22:56,3.010s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:22:56,06-03-2026 14:22:58,2.138s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Chrome 145.0.7632.160,,,06-03-2026 14:22:58,06-03-2026 14:22:59,1.034s,PASSED
+rand = new java.util.Random(),Chrome 145.0.7632.160,,,06-03-2026 14:22:59,06-03-2026 14:22:59,0.016s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Chrome 145.0.7632.160,,,06-03-2026 14:22:59,06-03-2026 14:22:59,0.016s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Chrome 145.0.7632.160,,,06-03-2026 14:22:59,06-03-2026 14:23:01,1.253s,PASSED
+"newTab("""")",Chrome 145.0.7632.160,,,06-03-2026 14:23:01,06-03-2026 14:23:01,0.157s,PASSED
+"navigateToUrl(""https://internxt.com/temporary-email"")",Chrome 145.0.7632.160,,,06-03-2026 14:23:01,06-03-2026 14:23:08,7.354s,PASSED
+delay(7),Chrome 145.0.7632.160,,,06-03-2026 14:23:08,06-03-2026 14:23:15,7.013s,PASSED
+"click(findTestObject(""Register/copy_temp email""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:15,06-03-2026 14:23:16,0.417s,PASSED
+"switchToWindowTitle(""VocaGame - Top up Game & Voucher Game termurah dan terpercaya di Indonesia."")",Chrome 145.0.7632.160,,,06-03-2026 14:23:16,06-03-2026 14:23:16,0.117s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), Keys.chord(CONTROL, ""v""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:16,06-03-2026 14:23:16,0.510s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:23:16,06-03-2026 14:23:17,0.953s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:23:17,06-03-2026 14:23:18,1.108s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:18,06-03-2026 14:23:19,0.557s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Chrome 145.0.7632.160,,,06-03-2026 14:23:19,06-03-2026 14:23:20,0.677s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:23:20,06-03-2026 14:23:22,2.017s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Chrome 145.0.7632.160,,,06-03-2026 14:23:22,06-03-2026 14:23:22,0.426s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:23:22,06-03-2026 14:23:24,2.014s,PASSED
+"click(findTestObject(""Register/button_Buat Akun Active""), OPTIONAL)",Chrome 145.0.7632.160,,,06-03-2026 14:23:24,06-03-2026 14:23:35,11.109s,WARNING
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:23:35,06-03-2026 14:23:38,3.008s,PASSED
+"click(findTestObject(""Register/li_Kirim OTP via Emailh1jtwdollicons.com""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:38,06-03-2026 14:23:39,0.390s,PASSED
+"click(findTestObject(""Register/button_Lanjutkan""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:39,06-03-2026 14:23:39,0.641s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:23:39,06-03-2026 14:23:40,1.017s,PASSED
+"switchToWindowTitle(""Temp Mail – Free Temporary Email"")",Chrome 145.0.7632.160,,,06-03-2026 14:23:40,06-03-2026 14:23:40,0.088s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:23:40,06-03-2026 14:23:43,3.014s,PASSED
+"click(findTestObject(""Register/Refresh inbox""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:43,06-03-2026 14:23:44,0.444s,PASSED
+"click(findTestObject(""Register/mail_Your OTP Code""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:44,06-03-2026 14:23:46,1.831s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:23:46,06-03-2026 14:23:49,3.009s,PASSED
+"doubleClick(findTestObject(""Register/OTP""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:49,06-03-2026 14:23:49,0.516s,PASSED
+"otp = getText(findTestObject(""Register/OTP""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:49,06-03-2026 14:23:49,0.373s,PASSED
+"switchToWindowTitle(""VocaGame - Top up Game & Voucher Game termurah dan terpercaya di Indonesia."")",Chrome 145.0.7632.160,,,06-03-2026 14:23:49,06-03-2026 14:23:50,0.048s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:23:50,06-03-2026 14:23:51,1.017s,PASSED
+otpField = new com.kms.katalon.core.testobject.TestObject(),Chrome 145.0.7632.160,,,06-03-2026 14:23:51,06-03-2026 14:23:51,0.009s,PASSED
+"otpField.addProperty(""xpath"", EQUALS, ""//input[@data-input-otp='true']"")",Chrome 145.0.7632.160,,,06-03-2026 14:23:51,06-03-2026 14:23:51,0.011s,PASSED
+"waitForElementVisible(otpField, 10)",Chrome 145.0.7632.160,,,06-03-2026 14:23:51,06-03-2026 14:23:51,0.442s,PASSED
+"setText(otpField, otp)",Chrome 145.0.7632.160,,,06-03-2026 14:23:51,06-03-2026 14:23:52,0.973s,PASSED
+"click(findTestObject(""Register/button_Verifikasi OTP""))",Chrome 145.0.7632.160,,,06-03-2026 14:23:52,06-03-2026 14:23:53,0.705s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:23:53,06-03-2026 14:23:55,2.017s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_02,Chrome 145.0.7632.160,,,06-03-2026 14:23:55,06-03-2026 14:24:19,23.913s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:23:55,06-03-2026 14:23:59,3.668s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:23:59,06-03-2026 14:23:59,0.956s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:23:59,06-03-2026 14:24:00,1.014s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:00,06-03-2026 14:24:03,2.375s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:03,06-03-2026 14:24:05,2.152s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:24:05,06-03-2026 14:24:08,3.012s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""a"")",Chrome 145.0.7632.160,,,06-03-2026 14:24:08,06-03-2026 14:24:19,10.607s,FAILED
+,,,,,,,
+Test Cases/Register/TC_REG_03,Chrome 145.0.7632.160,,,06-03-2026 14:24:19,06-03-2026 14:24:39,20.749s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:24:19,06-03-2026 14:24:22,3.528s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:24:22,06-03-2026 14:24:24,1.364s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:24:24,06-03-2026 14:24:25,1.017s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:25,06-03-2026 14:24:27,2.222s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:27,06-03-2026 14:24:30,3.053s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:24:30,06-03-2026 14:24:33,3.023s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:24:33,06-03-2026 14:24:34,0.883s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Chrome 145.0.7632.160,,,06-03-2026 14:24:34,06-03-2026 14:24:35,1.065s,PASSED
+"setText(findTestObject(""Register/input_Email""), ""aaaaa"")",Chrome 145.0.7632.160,,,06-03-2026 14:24:35,06-03-2026 14:24:36,0.930s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:24:36,06-03-2026 14:24:37,1.016s,PASSED
+"verifyElementText(findTestObject(""Register/p_Harap masukkan alamat email yang valid""), ""Harap masukkan alamat email yang valid."")",Chrome 145.0.7632.160,,,06-03-2026 14:24:37,06-03-2026 14:24:37,0.298s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Chrome 145.0.7632.160,,,06-03-2026 14:24:37,06-03-2026 14:24:37,0.287s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:37,06-03-2026 14:24:38,0.403s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:38,06-03-2026 14:24:38,0.533s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:24:38,06-03-2026 14:24:39,1.007s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_04,Chrome 145.0.7632.160,,,06-03-2026 14:24:39,06-03-2026 14:25:05,25.881s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:24:40,06-03-2026 14:24:45,5.555s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:24:45,06-03-2026 14:24:45,0.054s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:24:45,06-03-2026 14:24:46,1.016s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:46,06-03-2026 14:24:49,2.611s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:24:49,06-03-2026 14:24:52,3.074s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:24:52,06-03-2026 14:24:55,3.017s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:24:55,06-03-2026 14:25:05,10.428s,FAILED
+,,,,,,,
+Test Cases/Register/TC_REG_05,Chrome 145.0.7632.160,,,06-03-2026 14:25:05,06-03-2026 14:25:40,34.286s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:25:05,06-03-2026 14:25:09,3.656s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:25:09,06-03-2026 14:25:10,1.278s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:25:10,06-03-2026 14:25:11,1.013s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:11,06-03-2026 14:25:14,2.348s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:14,06-03-2026 14:25:16,2.732s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:25:16,06-03-2026 14:25:19,3.023s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:25:19,06-03-2026 14:25:20,0.898s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Chrome 145.0.7632.160,,,06-03-2026 14:25:20,06-03-2026 14:25:21,1.048s,PASSED
+rand = new java.util.Random(),Chrome 145.0.7632.160,,,06-03-2026 14:25:21,06-03-2026 14:25:21,0.005s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Chrome 145.0.7632.160,,,06-03-2026 14:25:21,06-03-2026 14:25:21,0.003s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Chrome 145.0.7632.160,,,06-03-2026 14:25:21,06-03-2026 14:25:23,1.132s,PASSED
+"newTab("""")",Chrome 145.0.7632.160,,,06-03-2026 14:25:23,06-03-2026 14:25:23,0.145s,PASSED
+"navigateToUrl(""https://internxt.com/temporary-email"")",Chrome 145.0.7632.160,,,06-03-2026 14:25:23,06-03-2026 14:25:27,4.742s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:25:27,06-03-2026 14:25:32,5.011s,PASSED
+"click(findTestObject(""Register/copy_temp email""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:32,06-03-2026 14:25:33,0.393s,PASSED
+"switchToWindowTitle(""VocaGame - Top up Game & Voucher Game termurah dan terpercaya di Indonesia."")",Chrome 145.0.7632.160,,,06-03-2026 14:25:33,06-03-2026 14:25:33,0.152s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), Keys.chord(CONTROL, ""v""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:33,06-03-2026 14:25:33,0.417s,PASSED
+"setText(findTestObject(""Register/input__Password""), ""Password1"")",Chrome 145.0.7632.160,,,06-03-2026 14:25:33,06-03-2026 14:25:34,0.858s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:25:34,06-03-2026 14:25:36,2.021s,PASSED
+"scrollToElement(findTestObject(""Register/button_Buat Akun Active""), 5)",Chrome 145.0.7632.160,,,06-03-2026 14:25:36,06-03-2026 14:25:37,0.260s,PASSED
+"click(findTestObject(""Register/Checklist TnC""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:37,06-03-2026 14:25:37,0.489s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:37,06-03-2026 14:25:38,0.521s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:25:38,06-03-2026 14:25:40,2.009s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_06,Chrome 145.0.7632.160,,,06-03-2026 14:25:40,06-03-2026 14:26:04,24.414s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:25:40,06-03-2026 14:25:45,4.896s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:25:45,06-03-2026 14:25:45,0.061s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:25:45,06-03-2026 14:25:46,1.022s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:46,06-03-2026 14:25:48,2.574s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:25:48,06-03-2026 14:25:50,2.185s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:25:50,06-03-2026 14:25:53,3.005s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:25:53,06-03-2026 14:26:04,10.479s,FAILED
+,,,,,,,
+Test Cases/Register/TC_REG_07,Chrome 145.0.7632.160,,,06-03-2026 14:26:04,06-03-2026 14:26:36,32.286s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:26:04,06-03-2026 14:26:09,4.377s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:26:09,06-03-2026 14:26:09,0.054s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:26:09,06-03-2026 14:26:10,1.014s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:26:10,06-03-2026 14:26:12,2.024s,PASSED
+"click(findTestObject(""Register/span_Daftar Sekarang""))",Chrome 145.0.7632.160,,,06-03-2026 14:26:12,06-03-2026 14:26:15,3.214s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:26:15,06-03-2026 14:26:18,3.011s,PASSED
+"setText(findTestObject(""Register/input_Nama Depan""), ""Devan"")",Chrome 145.0.7632.160,,,06-03-2026 14:26:18,06-03-2026 14:26:19,0.914s,PASSED
+"setText(findTestObject(""Register/input__Nama Belakang""), ""Putra"")",Chrome 145.0.7632.160,,,06-03-2026 14:26:19,06-03-2026 14:26:20,0.929s,PASSED
+rand = new java.util.Random(),Chrome 145.0.7632.160,,,06-03-2026 14:26:20,06-03-2026 14:26:20,0.002s,PASSED
+"phoneNumber = ""08"" + 100000000 + rand.nextInt(900000000)",Chrome 145.0.7632.160,,,06-03-2026 14:26:20,06-03-2026 14:26:20,0.002s,PASSED
+"setText(findTestObject(""Register/input_Whatsapp""), phoneNumber)",Chrome 145.0.7632.160,,,06-03-2026 14:26:20,06-03-2026 14:26:21,1.081s,PASSED
+"newTab("""")",Chrome 145.0.7632.160,,,06-03-2026 14:26:21,06-03-2026 14:26:21,0.112s,PASSED
+"navigateToUrl(""https://internxt.com/temporary-email"")",Chrome 145.0.7632.160,,,06-03-2026 14:26:21,06-03-2026 14:26:27,6.033s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:26:27,06-03-2026 14:26:32,5.021s,PASSED
+"click(findTestObject(""Register/copy_temp email""))",Chrome 145.0.7632.160,,,06-03-2026 14:26:32,06-03-2026 14:26:32,0.398s,PASSED
+"switchToWindowTitle(""VocaGame - Top up Game & Voucher Game termurah dan terpercaya di Indonesia."")",Chrome 145.0.7632.160,,,06-03-2026 14:26:32,06-03-2026 14:26:33,0.156s,PASSED
+"sendKeys(findTestObject(""Register/input_Email""), Keys.chord(CONTROL, ""v""))",Chrome 145.0.7632.160,,,06-03-2026 14:26:33,06-03-2026 14:26:33,0.416s,PASSED
+"setText(findTestObject(""Register/input__Password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:26:33,06-03-2026 14:26:34,0.879s,PASSED
+"setText(findTestObject(""Register/input__Konfirmasi Password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:26:34,06-03-2026 14:26:35,1.098s,PASSED
+"verifyElementNotClickable(findTestObject(""Register/button_Buat Akun Active""))",Chrome 145.0.7632.160,,,06-03-2026 14:26:35,06-03-2026 14:26:35,0.363s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:26:35,06-03-2026 14:26:36,1.007s,PASSED
+,,,,,,,
+Test Cases/Register/TC_REG_08,Chrome 145.0.7632.160,,,06-03-2026 14:26:36,06-03-2026 14:27:32,55.575s,FAILED
+"callTestCase(findTestCase(""Register/TC_REG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:26:36,06-03-2026 14:27:32,55.457s,FAILED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_01,Chrome 145.0.7632.160,,,06-03-2026 14:27:32,06-03-2026 14:28:24,52.639s,FAILED
+"callTestCase(findTestCase(""Register/TC_REG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:27:32,06-03-2026 14:28:24,52.457s,FAILED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_02,Chrome 145.0.7632.160,,,06-03-2026 14:28:24,06-03-2026 14:28:44,19.705s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:28:25,06-03-2026 14:28:30,5.436s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:28:30,06-03-2026 14:28:30,0.047s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:28:30,06-03-2026 14:28:31,1.008s,PASSED
+"click(findTestObject(""Forgot Password/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:28:31,06-03-2026 14:28:32,0.465s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:28:32,06-03-2026 14:28:34,2.016s,PASSED
+"lupa_password = findTestObject(""Forgot Password/p_Lupa Password"")",Chrome 145.0.7632.160,,,06-03-2026 14:28:34,06-03-2026 14:28:34,0.004s,PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(lupa_password)))",Chrome 145.0.7632.160,,,06-03-2026 14:28:34,06-03-2026 14:28:34,0.288s,PASSED
+"setText(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""), ""aaaaa"")",Chrome 145.0.7632.160,,,06-03-2026 14:28:34,06-03-2026 14:28:44,10.339s,FAILED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_03,Chrome 145.0.7632.160,,,06-03-2026 14:28:44,06-03-2026 14:28:59,14.395s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:28:44,06-03-2026 14:28:47,2.464s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:28:47,06-03-2026 14:28:47,0.054s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:28:47,06-03-2026 14:28:48,1.016s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:28:48,06-03-2026 14:28:51,3.447s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:28:51,06-03-2026 14:28:53,2.009s,PASSED
+"lupa_password = findTestObject(""Forgot Password/p_Lupa Password"")",Chrome 145.0.7632.160,,,06-03-2026 14:28:53,06-03-2026 14:28:53,0.007s,PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(lupa_password)))",Chrome 145.0.7632.160,,,06-03-2026 14:28:53,06-03-2026 14:28:54,0.559s,PASSED
+"setText(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""), ""aaaaaaaaa"")",Chrome 145.0.7632.160,,,06-03-2026 14:28:54,06-03-2026 14:28:56,1.856s,PASSED
+"clearText(findTestObject(""Forgot Password/input__Nomor whatsapp atau Email""))",Chrome 145.0.7632.160,,,06-03-2026 14:28:56,06-03-2026 14:28:58,2.150s,PASSED
+"verifyTextPresent(""This field is required"", false)",Chrome 145.0.7632.160,,,06-03-2026 14:28:58,06-03-2026 14:28:59,0.753s,FAILED
+,,,,,,,
+Test Cases/Forgot Password/TC_FP_04,Chrome 145.0.7632.160,,,06-03-2026 14:28:59,06-03-2026 14:29:55,56.690s,FAILED
+"callTestCase(findTestCase(""Register/TC_REG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:28:59,06-03-2026 14:29:55,56.597s,FAILED
+,,,,,,,
+Test Cases/Login/TC_LOG_01,Chrome 145.0.7632.160,,,06-03-2026 14:29:55,06-03-2026 14:30:19,23.748s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:29:55,06-03-2026 14:29:59,3.718s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:29:59,06-03-2026 14:29:59,0.048s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:29:59,06-03-2026 14:30:02,3.007s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:02,06-03-2026 14:30:03,0.394s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), valid_email)",Chrome 145.0.7632.160,,,06-03-2026 14:30:03,06-03-2026 14:30:06,3.150s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:06,06-03-2026 14:30:06,0.646s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:30:06,06-03-2026 14:30:09,2.995s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:30:09,06-03-2026 14:30:14,5.007s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:14,06-03-2026 14:30:15,0.384s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Chrome 145.0.7632.160,,,06-03-2026 14:30:15,06-03-2026 14:30:16,1.299s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:30:16,06-03-2026 14:30:19,3.013s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_02,Chrome 145.0.7632.160,,,06-03-2026 14:30:19,06-03-2026 14:30:41,21.751s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:30:19,06-03-2026 14:30:22,2.484s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:30:22,06-03-2026 14:30:22,0.045s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:30:22,06-03-2026 14:30:25,3.014s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:25,06-03-2026 14:30:26,0.888s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""vpriansyah@gmail.com"")",Chrome 145.0.7632.160,,,06-03-2026 14:30:26,06-03-2026 14:30:29,3.396s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:29,06-03-2026 14:30:29,0.514s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:30:29,06-03-2026 14:30:30,0.935s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:30:30,06-03-2026 14:30:35,5.007s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:35,06-03-2026 14:30:36,0.416s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Chrome 145.0.7632.160,,,06-03-2026 14:30:36,06-03-2026 14:30:37,1.197s,PASSED
+"verifyElementPresent(findTestObject(""Login/div_Kata sandi salah. Verifikasi dan coba lagi""), 5)",Chrome 145.0.7632.160,,,06-03-2026 14:30:37,06-03-2026 14:30:38,0.783s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:30:38,06-03-2026 14:30:41,3.011s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_03,Chrome 145.0.7632.160,,,06-03-2026 14:30:41,06-03-2026 14:31:10,28.785s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:30:41,06-03-2026 14:30:43,2.601s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:30:43,06-03-2026 14:30:43,0.037s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:30:43,06-03-2026 14:30:47,3.008s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:30:47,06-03-2026 14:30:47,0.839s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""aaaaaaaa"")",Chrome 145.0.7632.160,,,06-03-2026 14:30:47,06-03-2026 14:30:51,3.442s,PASSED
+"verifyElementPresent(findTestObject(""Login/p_Email harus berupa alamat email yang valid""), 3)",Chrome 145.0.7632.160,,,06-03-2026 14:30:51,06-03-2026 14:30:51,0.477s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:30:51,06-03-2026 14:30:56,5.013s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Chrome 145.0.7632.160,,,06-03-2026 14:30:56,06-03-2026 14:31:06,10.019s,WARNING
+"verifyElementNotClickable(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:06,06-03-2026 14:31:07,0.278s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:31:07,06-03-2026 14:31:10,3.006s,PASSED
+,,,,,,,
+Test Cases/Login/TC_LOG_04,Chrome 145.0.7632.160,,,06-03-2026 14:31:10,06-03-2026 14:31:30,20.804s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:31:10,06-03-2026 14:31:14,4.708s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:31:14,06-03-2026 14:31:14,0.048s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:31:14,06-03-2026 14:31:17,3.013s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:17,06-03-2026 14:31:18,0.434s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), ""081217171661"")",Chrome 145.0.7632.160,,,06-03-2026 14:31:18,06-03-2026 14:31:21,3.277s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:21,06-03-2026 14:31:22,1.065s,PASSED
+"setText(findTestObject(""Login/input_Show password""), password)",Chrome 145.0.7632.160,,,06-03-2026 14:31:22,06-03-2026 14:31:23,0.880s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:31:23,06-03-2026 14:31:28,5.018s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:28,06-03-2026 14:31:28,0.405s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Chrome 145.0.7632.160,,,06-03-2026 14:31:28,06-03-2026 14:31:30,1.106s,PASSED
+"verifyTextPresent(""Phone Number tidak ditemukan"", false)",Chrome 145.0.7632.160,,,06-03-2026 14:31:30,06-03-2026 14:31:30,0.789s,FAILED
+,,,,,,,
+Test Cases/Login/TC_LOG_05,Chrome 145.0.7632.160,,,06-03-2026 14:31:30,06-03-2026 14:31:44,13.672s,FAILED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:31:30,06-03-2026 14:31:33,2.612s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:31:33,06-03-2026 14:31:33,0.071s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:31:33,06-03-2026 14:31:36,3.031s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:36,06-03-2026 14:31:37,0.436s,PASSED
+"setText(findTestObject(""Login/input_Nomor HP atau email""), valid_email)",Chrome 145.0.7632.160,,,06-03-2026 14:31:37,06-03-2026 14:31:40,3.079s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:40,06-03-2026 14:31:40,0.628s,PASSED
+"setText(findTestObject(""Login/input_Show password""), ""password"")",Chrome 145.0.7632.160,,,06-03-2026 14:31:40,06-03-2026 14:31:41,0.935s,PASSED
+"click(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:41,06-03-2026 14:31:42,0.399s,PASSED
+"if (verifyElementClickable(findTestObject(""Login/button_Masuk Akun""), OPTIONAL))",Chrome 145.0.7632.160,,,06-03-2026 14:31:42,06-03-2026 14:31:43,1.207s,PASSED
+"verifyTextPresent(""Kata sandi salah"", false)",Chrome 145.0.7632.160,,,06-03-2026 14:31:43,06-03-2026 14:31:44,1.187s,FAILED
+,,,,,,,
+Test Cases/Login/TC_LOG_06,Chrome 145.0.7632.160,,,06-03-2026 14:31:44,06-03-2026 14:32:01,17.340s,PASSED
+openBrowser(url),Chrome 145.0.7632.160,,,06-03-2026 14:31:44,06-03-2026 14:31:49,4.445s,PASSED
+maximizeWindow(),Chrome 145.0.7632.160,,,06-03-2026 14:31:49,06-03-2026 14:31:49,0.066s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:31:49,06-03-2026 14:31:52,3.003s,PASSED
+"click(findTestObject(""Register/button_Masuk""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:52,06-03-2026 14:31:53,1.483s,PASSED
+delay(5),Chrome 145.0.7632.160,,,06-03-2026 14:31:53,06-03-2026 14:31:58,5.017s,PASSED
+"verifyElementNotClickable(findTestObject(""Login/button_Masuk Akun""))",Chrome 145.0.7632.160,,,06-03-2026 14:31:58,06-03-2026 14:31:58,0.267s,PASSED
+delay(3),Chrome 145.0.7632.160,,,06-03-2026 14:31:58,06-03-2026 14:32:01,3.011s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_01,Chrome 145.0.7632.160,,,06-03-2026 14:32:01,06-03-2026 14:32:35,33.762s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:32:01,06-03-2026 14:32:25,23.368s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:32:25,06-03-2026 14:32:35,10.320s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_02,Chrome 145.0.7632.160,,,06-03-2026 14:32:35,06-03-2026 14:33:08,33.302s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:32:35,06-03-2026 14:32:57,22.037s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:32:57,06-03-2026 14:32:59,1.314s,PASSED
+delay(2),Chrome 145.0.7632.160,,,06-03-2026 14:32:59,06-03-2026 14:33:01,2.002s,PASSED
+"click(findTestObject(""Product Order/div_Mobile Legends Bang BangMoonton""))",Chrome 145.0.7632.160,,,06-03-2026 14:33:01,06-03-2026 14:33:01,0.480s,PASSED
+delay(1),Chrome 145.0.7632.160,,,06-03-2026 14:33:01,06-03-2026 14:33:02,1.003s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Chrome 145.0.7632.160,,,06-03-2026 14:33:02,06-03-2026 14:33:08,6.400s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_03,Chrome 145.0.7632.160,,,06-03-2026 14:33:08,06-03-2026 14:33:40,31.621s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:33:09,06-03-2026 14:33:30,21.270s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:33:30,06-03-2026 14:33:40,10.279s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_04,Chrome 145.0.7632.160,,,06-03-2026 14:33:40,06-03-2026 14:34:12,31.911s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:33:40,06-03-2026 14:34:02,21.373s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:34:02,06-03-2026 14:34:12,10.417s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_05,Chrome 145.0.7632.160,,,06-03-2026 14:34:12,06-03-2026 14:34:45,33.378s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:34:12,06-03-2026 14:34:35,22.838s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:34:35,06-03-2026 14:34:45,10.413s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_06,Chrome 145.0.7632.160,,,06-03-2026 14:34:45,06-03-2026 14:35:20,34.352s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Chrome 145.0.7632.160,,,06-03-2026 14:34:45,06-03-2026 14:35:09,24.002s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Chrome 145.0.7632.160,,,06-03-2026 14:35:09,06-03-2026 14:35:20,10.264s,FAILED

@@ -1,0 +1,41 @@
+2026-03-06 14:43:56.618 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 14:43:56.623 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 14:43:57.598 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Integration Testing VocaGame
+2026-03-06 14:43:57.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 14:43:57.717 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 14:43:57.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 14:43:57.719 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 14:43:57.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 14:43:57.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 14:43:57.996 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 14:43:57.997 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Register/TC_REG_01
+2026-03-06 14:43:59.716 DEBUG testcase.TC_REG_01                       - 1: openBrowser(url)
+2026-03-06 14:44:01.141 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 14:44:01.225 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 2:44:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 14:44:03.508 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4f099b32a23f22173df4fd8cda5fdacf
+2026-03-06 14:44:03.510 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 14:44:03.511 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 14:44:03.512 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 14:44:03.520 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 14:44:04.228 DEBUG testcase.TC_REG_01                       - 2: maximizeWindow()
+2026-03-06 14:44:04.462 DEBUG testcase.TC_REG_01                       - 3: delay(3)
+2026-03-06 14:44:07.572 DEBUG testcase.TC_REG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 14:44:08.136 DEBUG testcase.TC_REG_01                       - 5: click(findTestObject("Register/span_Daftar Sekarang"))
+2026-03-06 14:44:09.459 DEBUG testcase.TC_REG_01                       - 6: delay(3)
+2026-03-06 14:44:12.476 DEBUG testcase.TC_REG_01                       - 7: setText(findTestObject("Register/input_Nama Depan"), "Devan")
+2026-03-06 14:44:13.345 DEBUG testcase.TC_REG_01                       - 8: setText(findTestObject("Register/input__Nama Belakang"), "Putra")
+2026-03-06 14:44:14.290 DEBUG testcase.TC_REG_01                       - 9: rand = new java.util.Random()
+2026-03-06 14:44:14.296 DEBUG testcase.TC_REG_01                       - 10: phoneNumber = "08" + 100000000 + rand.nextInt(900000000)
+2026-03-06 14:44:14.314 DEBUG testcase.TC_REG_01                       - 11: setText(findTestObject("Register/input_Whatsapp"), phoneNumber)
+2026-03-06 14:44:15.427 DEBUG testcase.TC_REG_01                       - 12: newTab("")
+2026-03-06 14:44:15.553 DEBUG testcase.TC_REG_01                       - 13: navigateToUrl("https://internxt.com/temporary-email")
+2026-03-06 14:44:19.770 DEBUG testcase.TC_REG_01                       - 14: delay(7)
+2026-03-06 14:44:26.781 DEBUG testcase.TC_REG_01                       - 15: click(findTestObject("Register/copy_temp email"))
+2026-03-06 14:44:27.214 DEBUG testcase.TC_REG_01                       - 16: switchToWindowTitle("VocaGame - Top up Game & Voucher Game termurah dan terpercaya di Indonesia.")
+2026-03-06 14:44:27.315 DEBUG testcase.TC_REG_01                       - 17: sendKeys(findTestObject("Register/input_Email"), Keys.chord(CONTROL, "v"))
+2026-03-06 14:44:27.790 DEBUG testcase.TC_REG_01                       - 18: setText(findTestObject("Register/input__Password"), password)
+2026-03-06 14:44:28.949 DEBUG testcase.TC_REG_01                       - 19: setText(findTestObject("Register/input__Konfirmasi Password"), password)
+2026-03-06 14:44:30.122 DEBUG testcase.TC_REG_01                       - 20: click(findTestObject("Register/Checklist TnC"))
+2026-03-06 14:44:30.648 DEBUG testcase.TC_REG_01                       - 21: click(findTestObject("Register/button_Buat Akun Active"), OPTIONAL)

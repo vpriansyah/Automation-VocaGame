@@ -1,0 +1,38 @@
+2026-03-06 16:32:37.322 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 16:32:37.326 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 16:32:38.343 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Product Order
+2026-03-06 16:32:38.488 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 16:32:38.489 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 16:32:38.490 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 16:32:38.491 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 16:32:38.492 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 16:32:38.494 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 16:32:38.752 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:32:38.753 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_01
+2026-03-06 16:32:39.401 DEBUG testcase.TC_PO_01                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:32:39.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:32:39.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:32:39.824 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:32:40.252 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 16:32:40.309 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:32:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:32:42.840 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0debbbdf4aa18f68f2e48f5dda916a17
+2026-03-06 16:32:42.844 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 16:32:42.846 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:32:42.848 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:32:42.861 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:32:43.714 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:32:44.324 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:32:47.482 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:32:48.122 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "hololoto@denipl.net")
+2026-03-06 16:32:51.215 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:32:51.933 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:32:52.958 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:32:57.987 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:32:58.443 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:32:59.097 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:32:59.558 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:33:02.578 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:33:02.579 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:33:02.586 DEBUG testcase.TC_PO_01                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")

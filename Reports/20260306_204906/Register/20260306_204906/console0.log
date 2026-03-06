@@ -1,0 +1,3 @@
+2026-03-06 20:49:14.788 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 20:49:14.794 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 20:49:16.343 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Register

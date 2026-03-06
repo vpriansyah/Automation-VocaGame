@@ -1,0 +1,53 @@
+2026-03-06 21:33:19.278 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 21:33:19.290 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 21:33:21.043 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Forgot Password
+2026-03-06 21:33:21.218 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 21:33:21.221 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 21:33:21.223 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 21:33:21.225 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 21:33:21.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 21:33:21.228 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 21:33:21.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 21:33:21.687 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Forgot Password/TC_FP_01
+2026-03-06 21:33:22.876 DEBUG testcase.TC_FP_01                        - 1: openBrowser(url)
+2026-03-06 21:33:23.949 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 21:33:24.115 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 9:33:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 21:33:28.122 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4c5623c053d37fb5b6a3776a6d017fa7
+2026-03-06 21:33:28.126 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 21:33:28.128 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 21:33:28.129 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 21:33:28.173 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 21:33:28.797 DEBUG testcase.TC_FP_01                        - 2: maximizeWindow()
+2026-03-06 21:33:30.192 DEBUG testcase.TC_FP_01                        - 3: delay(5)
+2026-03-06 21:33:35.662 DEBUG testcase.TC_FP_01                        - 4: click(findTestObject("Forgot Password/button_Masuk"))
+2026-03-06 21:33:36.454 DEBUG testcase.TC_FP_01                        - 5: delay(1)
+2026-03-06 21:33:37.495 DEBUG testcase.TC_FP_01                        - 6: click(findTestObject("Forgot Password/p_Lupa Password"))
+2026-03-06 21:33:38.903 DEBUG testcase.TC_FP_01                        - 7: sendKeys(findTestObject("Forgot Password/input__Nomor whatsapp atau Email"), valid_email)
+2026-03-06 21:33:39.892 DEBUG testcase.TC_FP_01                        - 8: delay(3)
+2026-03-06 21:33:42.904 DEBUG testcase.TC_FP_01                        - 9: click(findTestObject("Forgot Password/button_Kirim Kode OTP"))
+2026-03-06 21:33:43.468 DEBUG testcase.TC_FP_01                        - 10: delay(1)
+2026-03-06 21:33:44.481 DEBUG testcase.TC_FP_01                        - 11: click(findTestObject("Forgot Password/li_Kirim OTP via Emailzzmmddollicons.com"))
+2026-03-06 21:33:44.908 DEBUG testcase.TC_FP_01                        - 12: click(findTestObject("Forgot Password/button_Lanjutkan"))
+2026-03-06 21:33:45.550 DEBUG testcase.TC_FP_01                        - 13: delay(7)
+2026-03-06 21:33:52.564 DEBUG testcase.TC_FP_01                        - 14: click(findTestObject("Register/button_Verifikasi OTP"))
+Mar 06, 2026 9:33:54 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+

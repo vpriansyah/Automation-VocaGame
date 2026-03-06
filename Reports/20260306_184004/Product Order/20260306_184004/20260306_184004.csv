@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product Order,Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:13,06-03-2026 18:46:22,6m - 9.605s,FAILED
+,,,,,,,
+Test Cases/Product Order/TC_PO_01,Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:13,06-03-2026 18:41:37,1m - 24.259s,PASSED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:14,06-03-2026 18:40:47,33.084s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:47,06-03-2026 18:40:48,0.999s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:48,06-03-2026 18:40:53,5.034s,PASSED
+"click(findTestObject(""Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:53,06-03-2026 18:40:54,0.583s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:54,06-03-2026 18:40:55,1.014s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:55,06-03-2026 18:40:56,1.587s,PASSED
+"setText(findTestObject(""Product Order/input__User ID""), user_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:40:56,06-03-2026 18:41:07,10.689s,PASSED
+"setText(findTestObject(""Product Order/input__Zone ID""), zone_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:07,06-03-2026 18:41:18,10.722s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:18,06-03-2026 18:41:21,3.021s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__Email""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:21,06-03-2026 18:41:21,0.305s,PASSED
+"setText(findTestObject(""Product Order/input__Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:21,06-03-2026 18:41:22,1.402s,PASSED
+"click(findTestObject(""Product Order/button_Weekly Diamond Pass""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:22,06-03-2026 18:41:23,0.721s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:23,06-03-2026 18:41:26,3.010s,PASSED
+"click(findTestObject(""Product Order/button_Rp 27,819""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:26,06-03-2026 18:41:27,0.638s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:27,06-03-2026 18:41:29,2.018s,PASSED
+"click(findTestObject(""Product Order/svg_Buy_lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:29,06-03-2026 18:41:30,1.118s,PASSED
+"click(findTestObject(""Product Order/p_QRIS""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:30,06-03-2026 18:41:31,0.712s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:31,06-03-2026 18:41:34,3.022s,PASSED
+"buyButton = findTestObject(""Object Repository/Product Order/button_Buy"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:34,06-03-2026 18:41:34,0.007s,PASSED
+"executeJavaScript(""arguments[0].click();"", Arrays.asList(findWebElement(buyButton)))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:34,06-03-2026 18:41:34,0.325s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:34,06-03-2026 18:41:37,3.011s,PASSED
+"verifyElementVisible(findTestObject(""Product Order/span_nomor pesanan""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:37,06-03-2026 18:41:37,0.314s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_02,Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:37,06-03-2026 18:42:37,59.561s,PASSED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:41:37,06-03-2026 18:42:07,29.731s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:07,06-03-2026 18:42:08,0.989s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:08,06-03-2026 18:42:13,5.050s,PASSED
+"click(findTestObject(""Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:13,06-03-2026 18:42:14,0.598s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:14,06-03-2026 18:42:15,1.023s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:15,06-03-2026 18:42:18,3.630s,PASSED
+"setText(findTestObject(""Product Order/input__Zone ID""), zone_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:18,06-03-2026 18:42:29,10.576s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:29,06-03-2026 18:42:32,3.025s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__Email""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:32,06-03-2026 18:42:32,0.287s,PASSED
+"setText(findTestObject(""Product Order/input__Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:32,06-03-2026 18:42:34,1.609s,PASSED
+"click(findTestObject(""Product Order/button_Weekly Diamond Pass""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:34,06-03-2026 18:42:35,0.701s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:35,06-03-2026 18:42:36,1.018s,PASSED
+"click(findTestObject(""Product Order/button_Rp 27,819""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:36,06-03-2026 18:42:36,0.544s,PASSED
+"verifyTextPresent(""Input ini wajib diisi"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:36,06-03-2026 18:42:37,0.579s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_03,Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:37,06-03-2026 18:43:30,53.098s,PASSED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:37,06-03-2026 18:42:58,20.771s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:58,06-03-2026 18:42:59,1.396s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 18:42:59,06-03-2026 18:43:04,5.022s,PASSED
+"click(findTestObject(""Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:04,06-03-2026 18:43:05,0.721s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:05,06-03-2026 18:43:06,1.023s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:06,06-03-2026 18:43:11,5.542s,PASSED
+"setText(findTestObject(""Product Order/input__User ID""), user_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:11,06-03-2026 18:43:22,10.746s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:22,06-03-2026 18:43:25,3.027s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__Email""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:25,06-03-2026 18:43:26,0.303s,PASSED
+"setText(findTestObject(""Product Order/input__Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:26,06-03-2026 18:43:27,1.594s,PASSED
+"click(findTestObject(""Product Order/button_Weekly Diamond Pass""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:27,06-03-2026 18:43:28,0.615s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:28,06-03-2026 18:43:29,1.008s,PASSED
+"click(findTestObject(""Product Order/button_Rp 27,819""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:29,06-03-2026 18:43:29,0.537s,PASSED
+"verifyTextPresent(""Input ini wajib diisi"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:29,06-03-2026 18:43:30,0.667s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_04,Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:30,06-03-2026 18:44:36,1m - 6.440s,PASSED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:30,06-03-2026 18:43:52,21.447s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:52,06-03-2026 18:43:55,3.294s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 18:43:55,06-03-2026 18:44:00,5.014s,PASSED
+"click(findTestObject(""Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:00,06-03-2026 18:44:01,0.658s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:01,06-03-2026 18:44:02,1.024s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:02,06-03-2026 18:44:07,5.893s,PASSED
+"setText(findTestObject(""Product Order/input__User ID""), ""222222"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:07,06-03-2026 18:44:18,10.646s,PASSED
+"setText(findTestObject(""Product Order/input__Zone ID""), ""11111"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:18,06-03-2026 18:44:29,10.744s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__Email""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:29,06-03-2026 18:44:29,0.505s,PASSED
+"setText(findTestObject(""Product Order/input__Email""), valid_email)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:29,06-03-2026 18:44:32,2.256s,PASSED
+"click(findTestObject(""Product Order/button_Weekly Diamond Pass""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:32,06-03-2026 18:44:32,0.681s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:32,06-03-2026 18:44:33,1.019s,PASSED
+"click(findTestObject(""Product Order/button_Rp 27,819""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:33,06-03-2026 18:44:34,0.595s,PASSED
+delay(2),Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:34,06-03-2026 18:44:36,2.017s,PASSED
+"verifyTextPresent(""Akun yang anda masukkan tidak terdaftar"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:36,06-03-2026 18:44:36,0.422s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_05,Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:36,06-03-2026 18:45:49,1m - 12.813s,PASSED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:44:37,06-03-2026 18:45:07,30.424s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:07,06-03-2026 18:45:08,0.951s,PASSED
+delay(5),Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:08,06-03-2026 18:45:13,5.014s,PASSED
+"click(findTestObject(""Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:13,06-03-2026 18:45:13,0.590s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:13,06-03-2026 18:45:15,1.028s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__User ID""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:15,06-03-2026 18:45:20,5.783s,PASSED
+"setText(findTestObject(""Product Order/input__User ID""), user_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:20,06-03-2026 18:45:31,10.719s,PASSED
+"setText(findTestObject(""Product Order/input__Zone ID""), zone_id)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:31,06-03-2026 18:45:42,10.725s,PASSED
+delay(3),Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:42,06-03-2026 18:45:45,3.019s,PASSED
+"scrollToElement(findTestObject(""Product Order/input__Email""), 5)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:45,06-03-2026 18:45:45,0.285s,PASSED
+"setText(findTestObject(""Product Order/input__Email""), ""aaaaaaaaa"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:45,06-03-2026 18:45:46,1.231s,PASSED
+"click(findTestObject(""Product Order/button_Weekly Diamond Pass""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:46,06-03-2026 18:45:47,0.718s,PASSED
+delay(1),Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:47,06-03-2026 18:45:48,1.016s,PASSED
+"click(findTestObject(""Product Order/button_Rp 27,819""))",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:48,06-03-2026 18:45:49,0.532s,PASSED
+"verifyTextPresent(""Email harus berupa alamat email yang valid"", false)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:49,06-03-2026 18:45:49,0.639s,PASSED
+,,,,,,,
+Test Cases/Product Order/TC_PO_06,Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:49,06-03-2026 18:46:22,32.455s,FAILED
+"callTestCase(findTestCase(""Login/TC_LOG_01""), [:], STOP_ON_FAILURE)",Edge Chromium 145.0.3800.82,,,06-03-2026 18:45:49,06-03-2026 18:46:11,21.663s,PASSED
+"setText(findTestObject(""Product Order/input_Indonesia_cy-search-product""), ""Mobile Legend"")",Edge Chromium 145.0.3800.82,,,06-03-2026 18:46:11,06-03-2026 18:46:22,10.657s,FAILED

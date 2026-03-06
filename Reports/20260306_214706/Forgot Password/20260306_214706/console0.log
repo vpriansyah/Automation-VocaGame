@@ -1,0 +1,27 @@
+2026-03-06 21:47:14.493 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 21:47:14.498 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 21:47:16.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Forgot Password
+2026-03-06 21:47:16.994 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 21:47:16.996 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 21:47:17.003 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 21:47:17.004 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 21:47:17.006 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2026-03-06 21:47:17.010 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 21:47:17.594 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 21:47:17.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Forgot Password/TC_FP_01
+2026-03-06 21:47:18.970 DEBUG testcase.TC_FP_01                        - 1: openBrowser(url)
+2026-03-06 21:47:20.377 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-06 21:47:20.498 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 9:47:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 21:47:25.094 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3a32147379aedc31d36f2c64ff7dba91
+2026-03-06 21:47:25.100 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7632.160
+2026-03-06 21:47:25.102 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 21:47:25.118 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 21:47:25.135 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 21:47:26.292 DEBUG testcase.TC_FP_01                        - 2: maximizeWindow()
+2026-03-06 21:47:27.151 DEBUG testcase.TC_FP_01                        - 3: delay(5)
+2026-03-06 21:47:32.360 DEBUG testcase.TC_FP_01                        - 4: click(findTestObject("Forgot Password/button_Masuk"))
+2026-03-06 21:47:33.034 DEBUG testcase.TC_FP_01                        - 5: delay(1)
+2026-03-06 21:47:34.062 DEBUG testcase.TC_FP_01                        - 6: click(findTestObject("Forgot Password/p_Lupa Password"))
+2026-03-06 21:47:42.417 DEBUG testcase.TC_FP_01                        - 7: sendKeys(findTestObject("Forgot Password/input__Nomor whatsapp atau Email"), valid_email)

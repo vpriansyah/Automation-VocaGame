@@ -1,0 +1,247 @@
+2026-03-06 16:26:15.768 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\x1 carbon\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-06 16:26:15.772 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\VocaGame\VocaGame\Include\config\log.properties
+2026-03-06 16:26:16.735 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Product Order
+2026-03-06 16:26:16.873 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Devanz
+2026-03-06 16:26:16.874 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = VocaGame
+2026-03-06 16:26:16.875 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = x1 carbon - DESKTOP-72PBSPN
+2026-03-06 16:26:16.876 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-06 16:26:16.877 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.100.143
+2026-03-06 16:26:16.878 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-03-06 16:26:17.087 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:26:17.087 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_01
+2026-03-06 16:26:17.662 DEBUG testcase.TC_PO_01                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:26:17.872 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:26:17.873 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:26:18.006 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:26:18.403 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 16:26:18.503 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:26:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:26:20.958 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a9e67bb320dd174cec5e467acc1c78ef
+2026-03-06 16:26:20.961 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 16:26:20.962 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:26:20.963 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:26:20.969 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:26:21.613 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:26:21.900 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:26:24.942 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:26:25.597 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "hololoto@denipl.net")
+2026-03-06 16:26:28.284 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:26:28.928 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:26:29.921 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:26:34.935 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:26:35.375 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:26:35.953 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:26:36.381 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:26:39.434 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:26:39.434 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:26:39.452 DEBUG testcase.TC_PO_01                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")
+2026-03-06 16:26:41.272 DEBUG testcase.TC_PO_01                        - 3: delay(5)
+2026-03-06 16:26:46.291 DEBUG testcase.TC_PO_01                        - 4: click(findTestObject("Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top"))
+2026-03-06 16:26:46.890 DEBUG testcase.TC_PO_01                        - 5: delay(1)
+2026-03-06 16:26:47.903 DEBUG testcase.TC_PO_01                        - 6: scrollToElement(findTestObject("Product Order/input__User ID"), 5)
+2026-03-06 16:26:48.489 DEBUG testcase.TC_PO_01                        - 7: setText(findTestObject("Product Order/input__User ID"), user_id)
+2026-03-06 16:26:58.527 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-06 16:26:58.853 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-06 16:26:59.087 DEBUG testcase.TC_PO_01                        - 8: setText(findTestObject("Product Order/input__Zone ID"), zone_id)
+2026-03-06 16:27:09.113 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-06 16:27:09.566 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-03-06 16:27:09.733 DEBUG testcase.TC_PO_01                        - 9: delay(3)
+2026-03-06 16:27:12.764 DEBUG testcase.TC_PO_01                        - 10: scrollToElement(findTestObject("Product Order/input__Email"), 5)
+2026-03-06 16:27:13.118 DEBUG testcase.TC_PO_01                        - 11: setText(findTestObject("Product Order/input__Email"), valid_email)
+2026-03-06 16:27:14.438 DEBUG testcase.TC_PO_01                        - 12: click(findTestObject("Product Order/button_Weekly Diamond Pass"))
+2026-03-06 16:27:15.099 DEBUG testcase.TC_PO_01                        - 13: delay(1)
+2026-03-06 16:27:16.117 DEBUG testcase.TC_PO_01                        - 14: click(findTestObject("Product Order/button_Rp 27,819"))
+2026-03-06 16:27:16.685 DEBUG testcase.TC_PO_01                        - 15: delay(2)
+2026-03-06 16:27:18.704 DEBUG testcase.TC_PO_01                        - 16: click(findTestObject("Product Order/svg_Buy_lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200"))
+2026-03-06 16:27:19.115 DEBUG testcase.TC_PO_01                        - 17: click(findTestObject("Product Order/p_QRIS"))
+2026-03-06 16:27:19.837 DEBUG testcase.TC_PO_01                        - 18: delay(3)
+2026-03-06 16:27:22.853 DEBUG testcase.TC_PO_01                        - 19: buyButton = findTestObject("Object Repository/Product Order/button_Buy")
+2026-03-06 16:27:22.868 DEBUG testcase.TC_PO_01                        - 20: executeJavaScript("arguments[0].click();", Arrays.asList(findWebElement(buyButton)))
+2026-03-06 16:27:23.188 DEBUG testcase.TC_PO_01                        - 21: delay(3)
+2026-03-06 16:27:26.206 DEBUG testcase.TC_PO_01                        - 22: verifyElementVisible(findTestObject("Product Order/span_nomor pesanan"))
+2026-03-06 16:27:26.571 DEBUG testcase.TC_PO_01                        - 23: delay(1)
+2026-03-06 16:27:27.592 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Product Order/TC_PO_01
+2026-03-06 16:27:27.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:27:27.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_02
+2026-03-06 16:27:27.701 DEBUG testcase.TC_PO_02                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:27:27.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:27:27.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:27:27.789 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:27:27.792 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 16:27:28.190 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 16:27:28.196 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:27:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:27:29.559 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 140770b274b88654c2170f0ea429bc87
+2026-03-06 16:27:29.562 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 16:27:29.563 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:27:29.564 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:27:29.565 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:27:30.228 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:27:30.488 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:27:33.503 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:27:33.952 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "hololoto@denipl.net")
+2026-03-06 16:27:35.953 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:27:36.742 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:27:37.794 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:27:42.817 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:27:43.273 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:27:43.828 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:27:44.315 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:27:47.334 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:27:47.335 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:27:47.345 DEBUG testcase.TC_PO_02                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")
+2026-03-06 16:27:49.098 DEBUG testcase.TC_PO_02                        - 3: delay(5)
+2026-03-06 16:27:54.125 DEBUG testcase.TC_PO_02                        - 4: click(findTestObject("Product Order/button_Buy"))
+2026-03-06 16:28:04.883 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Product Order/button_Buy' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Order/button_Buy'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at TC_PO_02.run(TC_PO_02:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product Order/button_Buy' located by 'By.xpath: //button[contains(text(),'Buy')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1772719217857.run(Script1772719217857.groovy:26)
+	... 13 more
+)
+2026-03-06 16:28:04.888 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Product Order/TC_PO_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Product Order/button_Buy'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at TC_PO_02.run(TC_PO_02:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Product Order/button_Buy' located by 'By.xpath: //button[contains(text(),'Buy')]' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-03-06 16:28:04.893 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Product Order/TC_PO_02
+2026-03-06 16:28:04.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:28:04.898 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Product Order/TC_PO_03
+2026-03-06 16:28:04.990 DEBUG testcase.TC_PO_03                        - 1: callTestCase(findTestCase("Login/TC_LOG_01"), [:], STOP_ON_FAILURE)
+2026-03-06 16:28:05.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:28:05.064 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:28:05.079 DEBUG testcase.TC_LOG_01                       - 1: openBrowser(url)
+2026-03-06 16:28:05.081 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-06 16:28:05.467 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-03-06 16:28:05.472 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 06, 2026 4:28:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 145
+2026-03-06 16:28:06.881 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5dd047481161f2c7651d2c45ed3fc08b
+2026-03-06 16:28:06.882 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 145.0.3800.82
+2026-03-06 16:28:06.883 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-06 16:28:06.884 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-06 16:28:06.884 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-06 16:28:07.591 DEBUG testcase.TC_LOG_01                       - 2: maximizeWindow()
+2026-03-06 16:28:07.927 DEBUG testcase.TC_LOG_01                       - 3: delay(3)
+2026-03-06 16:28:10.944 DEBUG testcase.TC_LOG_01                       - 4: click(findTestObject("Register/button_Masuk"))
+2026-03-06 16:28:11.477 DEBUG testcase.TC_LOG_01                       - 5: setText(findTestObject("Login/input_Nomor HP atau email"), "hololoto@denipl.net")
+2026-03-06 16:28:13.938 DEBUG testcase.TC_LOG_01                       - 6: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:28:14.580 DEBUG testcase.TC_LOG_01                       - 7: setText(findTestObject("Login/input_Show password"), password)
+2026-03-06 16:28:15.636 DEBUG testcase.TC_LOG_01                       - 8: delay(5)
+2026-03-06 16:28:20.655 DEBUG testcase.TC_LOG_01                       - 9: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:28:21.120 DEBUG testcase.TC_LOG_01                       - 10: if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL))
+2026-03-06 16:28:21.640 DEBUG testcase.TC_LOG_01                       - 1: click(findTestObject("Login/button_Masuk Akun"))
+2026-03-06 16:28:22.033 DEBUG testcase.TC_LOG_01                       - 11: delay(3)
+2026-03-06 16:28:25.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Login/TC_LOG_01
+2026-03-06 16:28:25.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-06 16:28:25.049 DEBUG testcase.TC_PO_03                        - 2: setText(findTestObject("Product Order/input_Indonesia_cy-search-product"), "Mobile Legend")
+2026-03-06 16:28:27.382 DEBUG testcase.TC_PO_03                        - 3: delay(5)
+2026-03-06 16:28:32.423 DEBUG testcase.TC_PO_03                        - 4: click(findTestObject("Product Order/img_Indonesia_h-12 w-12 rounded-lg object-cover object-top"))
+2026-03-06 16:28:33.436 DEBUG testcase.TC_PO_03                        - 5: delay(1)
+2026-03-06 16:28:34.449 DEBUG testcase.TC_PO_03                        - 6: scrollToElement(findTestObject("Product Order/input__User ID"), 5)
+2026-03-06 16:28:35.668 DEBUG testcase.TC_PO_03                        - 7: setText(findTestObject("Product Order/input__User ID"), user_id)
+Mar 06, 2026 4:28:40 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+

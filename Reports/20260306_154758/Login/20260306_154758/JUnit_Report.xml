@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="124.839" tests="6" failures="2" errors="0">
+   <testsuite name="Login" tests="6" failures="2" errors="0" time="124.839" skipped="0" timestamp="2026-03-06T08:48:06.295Z" hostname="x1 carbon - DESKTOP-72PBSPN" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758"/>
+         <property name="logFiles" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\console0.log, D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\execution0.log"/>
+         <property name="attachments" value="D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786939207.png, D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786939492.png, D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786997188.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="x1 carbon - DESKTOP-72PBSPN"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 145.0.7632.160"/>
+         <property name="userFullName" value="Devanz"/>
+         <property name="hostAddress" value="172.16.100.143"/>
+         <property name="sessionId" value="545f080c705e32c3e908863c025c5502"/>
+         <property name="projectName" value="VocaGame"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_LOG_01" time="31.014" classname="Test Cases/Login/TC_LOG_01" status="PASSED">
+         <system-out><![CDATA[06-03-2026T15:48:06 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_01: Test Cases/Login/TC_LOG_01
+
+06-03-2026T15:48:07 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:48:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:48:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:48:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:48:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:48:11 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:48:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:48:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), valid_email): Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:48:17 - [MESSAGE][PASSED] - Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:48:18 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:48:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T15:48:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T15:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:24 - [TEST_STEP][WARNING] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_01.run(TC_LOG_01:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T15:48:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Login/button_Masuk Akun' located by 'By.xpath: //button[@type='submit']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_01.run(TC_LOG_01:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T15:48:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:48:37 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_02" time="22.164" classname="Test Cases/Login/TC_LOG_02" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/TC_LOG_02 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)&#xa;	at TC_LOG_02.run(TC_LOG_02:42)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 18 more&#xa;"/>
+         <system-out><![CDATA[06-03-2026T15:48:37 - [TEST_CASE][FAILED] - Test Cases/Login/TC_LOG_02: Test Cases/Login/TC_LOG_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+
+06-03-2026T15:48:37 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:48:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T15:48:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:48:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:48:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:48:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:48:40 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:48:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:48:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "vpriansyah@gmail.com"): Text 'vpriansyah@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:48:46 - [MESSAGE][PASSED] - Text 'vpriansyah@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:48:47 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:48:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T15:48:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T15:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:53 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T15:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T15:48:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:48:54 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Login/div_Kata sandi salah. Verifikasi dan coba lagi"), 5): Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+
+06-03-2026T15:48:59 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+[[ATTACHMENT|D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786939207.png]]
+
+06-03-2026T15:48:59 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+[[ATTACHMENT|D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786939492.png]]]]></system-out>
+         <system-err><![CDATA[06-03-2026T15:48:37 - [TEST_CASE][FAILED] - Test Cases/Login/TC_LOG_02: Test Cases/Login/TC_LOG_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_LOG_02.run(TC_LOG_02:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/div_Kata sandi salah. Verifikasi dan coba lagi' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Hello!'])[1]/following::div[3]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_03" time="26.478" classname="Test Cases/Login/TC_LOG_03" status="PASSED">
+         <system-out><![CDATA[06-03-2026T15:48:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_03: Test Cases/Login/TC_LOG_03
+
+06-03-2026T15:48:59 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:48:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T15:49:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:49:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:49:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:49:01 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:49:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:49:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "aaaaaaaa"): Text 'aaaaaaaa' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:07 - [MESSAGE][PASSED] - Text 'aaaaaaaa' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/p_Email harus berupa alamat email yang valid"), 3): Object 'Object Repository/Login/p_Email harus berupa alamat email yang valid' is present
+
+06-03-2026T15:49:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/p_Email harus berupa alamat email yang valid' is present
+
+06-03-2026T15:49:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T15:49:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T15:49:12 - [TEST_STEP][WARNING] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T15:49:22 - [MESSAGE][WARNING] - Waiting for element timed out
+
+06-03-2026T15:49:22 - [MESSAGE][WARNING] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword$_verifyElementClickable_closure1.doCall(VerifyElementClickableKeyword.groovy:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:628)
+	at TC_LOG_03.run(TC_LOG_03:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T15:49:22 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login/button_Masuk Akun")): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T15:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T15:49:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:49:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_04" time="19.594" classname="Test Cases/Login/TC_LOG_04" status="PASSED">
+         <system-out><![CDATA[06-03-2026T15:49:26 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_04: Test Cases/Login/TC_LOG_04
+
+06-03-2026T15:49:26 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T15:49:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:49:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:49:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:49:28 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:49:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:49:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:49:31 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), "081217171661"): Text '081217171661' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:34 - [MESSAGE][PASSED] - Text '081217171661' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), password): Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:49:35 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:49:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T15:49:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T15:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:41 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T15:49:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T15:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:42 - [TEST_STEP][PASSED] - verifyTextPresent("Phone Number tidak ditemukan", false): Text 'Phone Number tidak ditemukan' is present on page 
+
+06-03-2026T15:49:42 - [MESSAGE][PASSED] - Text 'Phone Number tidak ditemukan' is present on page 
+
+06-03-2026T15:49:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:49:45 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_05" time="11.609" classname="Test Cases/Login/TC_LOG_05" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/TC_LOG_05 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)&#xa;	at TC_LOG_05.run(TC_LOG_05:40)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 18 more&#xa;"/>
+         <system-out><![CDATA[06-03-2026T15:49:45 - [TEST_CASE][FAILED] - Test Cases/Login/TC_LOG_05: Test Cases/Login/TC_LOG_05 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+
+
+06-03-2026T15:49:45 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T15:49:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:49:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:49:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:49:48 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:49:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:49:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:49:51 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Nomor HP atau email"), valid_email): Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:53 - [MESSAGE][PASSED] - Text 'deyantraa@gmail.com' is set on object 'Object Repository/Login/input_Nomor HP atau email'
+
+06-03-2026T15:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Show password"), "password"): Text 'password' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:49:55 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Login/input_Show password'
+
+06-03-2026T15:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:55 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Login/button_Masuk Akun"), OPTIONAL)): null
+
+06-03-2026T15:49:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is clickable
+
+06-03-2026T15:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk Akun")): Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk Akun' is clicked on
+
+06-03-2026T15:49:56 - [TEST_STEP][FAILED] - verifyTextPresent("Kata sandi salah", false): Unable to verify text 'Kata sandi salah' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+
+06-03-2026T15:49:57 - [MESSAGE][FAILED] - Text 'Kata sandi salah' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+06-03-2026T15:49:57 - [MESSAGE][FAILED] - Unable to verify text 'Kata sandi salah' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more
+)
+[[ATTACHMENT|D:\\VocaGame\\VocaGame\\Reports\\20260306_154758\\Login\\20260306_154758\\1772786997188.png]]]]></system-out>
+         <system-err><![CDATA[06-03-2026T15:49:45 - [TEST_CASE][FAILED] - Test Cases/Login/TC_LOG_05: Test Cases/Login/TC_LOG_05 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kata sandi salah' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1824)
+	at TC_LOG_05.run(TC_LOG_05:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kata sandi salah' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 18 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_LOG_06" time="13.675" classname="Test Cases/Login/TC_LOG_06" status="PASSED">
+         <system-out><![CDATA[06-03-2026T15:49:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC_LOG_06: Test Cases/Login/TC_LOG_06
+
+06-03-2026T15:49:57 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2026T15:49:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2026T15:49:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2026T15:49:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vocagame.com/'
+
+06-03-2026T15:49:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2026T15:49:59 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2026T15:49:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:50:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+06-03-2026T15:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Masuk")): Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Masuk' is clicked on
+
+06-03-2026T15:50:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+06-03-2026T15:50:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+06-03-2026T15:50:07 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Login/button_Masuk Akun")): Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T15:50:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_Masuk Akun' is NOT clickable
+
+06-03-2026T15:50:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+06-03-2026T15:50:11 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2026T15:48:06 - [TEST_SUITE][FAILED] - Login: null]]></system-out>
+      <system-err><![CDATA[06-03-2026T15:48:06 - [TEST_SUITE][FAILED] - Login: null]]></system-err>
+   </testsuite>
+</testsuites>
